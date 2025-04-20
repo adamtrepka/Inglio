@@ -1,0 +1,267 @@
+{
+    "source" : {
+        "url" :"https://notesfrompoland.com/2025/04/16/polish-firm-signs-biggest-ever-contract-with-european-space-agency-to-launch-satellite-constellation/",
+        "title" : "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
+        "website" : "Notes from Poland",
+        "date" : "16 April 2025"
+    },
+    "words": [
+        {
+            "word": "contract",
+            "source": "text",
+            "explenation": "a formal agreement to do or not do something",
+            "type": "noun"
+        },
+        {
+            "word": "satellite",
+            "source": "text",
+            "explenation": "a moon or artificial object sent into space to orbit the Earth or other planets",
+            "type": "noun"
+        },
+        {
+            "word": "infrastructure",
+            "source": "text",
+            "explenation": "the basic physical and organizational structures needed for the operation of a society or enterprise",
+            "type": "noun"
+        },
+        {
+            "word": "technology",
+            "source": "text",
+            "explenation": "the application of scientific knowledge for practical purposes",
+            "type": "noun"
+        },
+        {
+            "word": "security",
+            "source": "text",
+            "explenation": "the state of being free from danger or threat",
+            "type": "noun"
+        },
+        {
+            "word": "project",
+            "source": "text",
+            "explenation": "a planned piece of work to achieve a particular aim",
+            "type": "noun"
+        },
+        {
+            "word": "mission",
+            "source": "text",
+            "explenation": "an important assignment or duty",
+            "type": "noun"
+        },
+        {
+            "word": "resilience",
+            "source": "text",
+            "explenation": "the capacity to recover quickly from difficulties or setbacks",
+            "type": "noun"
+        },
+        {
+            "word": "launch",
+            "source": "text",
+            "explenation": "to send or propel into motion or into the air or space",
+            "type": "verb"
+        },
+        {
+            "word": "autonomy",
+            "source": "text",
+            "explenation": "the right or condition of self-government; independence",
+            "type": "noun"
+        }
+    ],
+    "phrasal_verbs": [
+        {
+            "phrasal_verb": "signs biggest ever contract",
+            "source": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
+            "explanation": "to agree formally to undertake a contract"
+        },
+        {
+            "phrasal_verb": "signed a €52 million contract",
+            "source": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
+            "explanation": "to formally agree and complete the signature of a contract"
+        },
+        {
+            "phrasal_verb": "build and launch",
+            "source": "to build and launch a constellation of Earth observation satellites",
+            "explanation": "to develop and send into space"
+        },
+        {
+            "phrasal_verb": "held during",
+            "source": "which was held during the ESA Security Conference in Warsaw",
+            "explanation": "to take place during a specific time or event"
+        },
+        {
+            "phrasal_verb": "gain knowledge and experience",
+            "source": "an opportunity to gain knowledge and experience",
+            "explanation": "to acquire or obtain knowledge and skills"
+        },
+        {
+            "phrasal_verb": "support effective crisis management",
+            "source": "support “effective crisis management, the safety of residents and infrastructure",
+            "explanation": "to aid or assist in managing crises effectively"
+        },
+        {
+            "phrasal_verb": "initially commissioned",
+            "source": "which initially commissioned the project",
+            "explanation": "to have appointed or assigned a task or project at an early stage"
+        },
+        {
+            "phrasal_verb": "spent on",
+            "source": "€25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors",
+            "explanation": "to use money for a particular purpose"
+        },
+        {
+            "phrasal_verb": "involved in",
+            "source": "several hundred people across Poland will be involved in the project",
+            "explanation": "to participate or take part in a project or activity"
+        },
+        {
+            "phrasal_verb": "contribute to",
+            "source": "the knowledge and experience gained will directly contribute to increasing the competitiveness",
+            "explanation": "to help bring about or add to a result"
+        },
+        {
+            "phrasal_verb": "marked a strategic step",
+            "source": "the project marks “a strategic step towards increasing Poland’s autonomy",
+            "explanation": "to take an action indicating progress or a significant development"
+        },
+        {
+            "phrasal_verb": "set to launch",
+            "source": "Later this year, Poland is set to launch its first mission",
+            "explanation": "to be prepared or scheduled to begin an operation"
+        },
+        {
+            "phrasal_verb": "run by",
+            "source": "Notes from Poland is run by a small editorial team",
+            "explanation": "to operate or manage"
+        }
+    ],
+    "tenses": [
+        {
+            "verb_phrase": "has signed",
+            "tense": "present perfect",
+            "alternative": "past simple",
+            "sentence": "Poland’s Creotech Instruments has signed a €52 million (223 million zloty) contract with the European Space Agency (ESA) to build and launch a constellation of Earth observation satellites.",
+            "explanation": "This present perfect tense indicates an action that was completed at an unspecified time before now, emphasizing the relevance of the signing to the current context."
+        },
+        {
+            "verb_phrase": "was held",
+            "tense": "past simple passive",
+            "alternative": "present perfect passive",
+            "sentence": "This signing ceremony, which was held during the ESA Security Conference in Warsaw.",
+            "explanation": "Past simple passive shows that the ceremony took place at a specific time in the past."
+        },
+        {
+            "verb_phrase": "added",
+            "tense": "past simple",
+            "alternative": "present perfect",
+            "sentence": "added the development and technology ministry.",
+            "explanation": "Past simple is used here because the action of adding occurred at a specific point in the past."
+        },
+        {
+            "verb_phrase": "says",
+            "tense": "present simple",
+            "alternative": "present continuous",
+            "sentence": "Creotech, which is the largest Polish space firm listed on the Warsaw Stock Exchange, says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical – along with associated ground infrastructure for control and data processing.",
+            "explanation": "Present simple here indicates a general statement or fact about Creotech's current position and claims."
+        },
+        {
+            "verb_phrase": "will contain",
+            "tense": "future simple",
+            "alternative": "present continuous",
+            "sentence": "says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical – along with associated ground infrastructure for control and data processing.",
+            "explanation": "Future simple tense expresses an intention or expectation regarding what the constellation will include in the future."
+        },
+        {
+            "verb_phrase": "will provide",
+            "tense": "future simple",
+            "alternative": "present simple",
+            "sentence": "The project will provide data to support “effective crisis management, the safety of residents and infrastructure, and protection of the natural environment” in Poland.",
+            "explanation": "Future simple indicates a future action that the project is expected to undertake."
+        },
+        {
+            "verb_phrase": "initially commissioned",
+            "tense": "past simple passive",
+            "alternative": "present perfect passive",
+            "sentence": "which initially commissioned the project before selecting the ESA to implement and manage the tender.",
+            "explanation": "Past simple passive shows that the project was commissioned at a specific time in the past by an unspecified agent."
+        },
+        {
+            "verb_phrase": "will go",
+            "tense": "future simple",
+            "alternative": "present continuous",
+            "sentence": "Out of the €52 million for the project – which is titled Country Awareness Mission in Land Analysis (CAMILA) – €25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors.",
+            "explanation": "Future simple tense indicating a planned allocation of funds in the future."
+        },
+        {
+            "verb_phrase": "says",
+            "tense": "present simple",
+            "alternative": "past simple",
+            "sentence": "Creotech says that several hundred people across Poland will be involved in the project, and that “the knowledge and experience gained will directly contribute to increasing the competitiveness of the Polish space sector and its share in European markets”.",
+            "explanation": "Present simple indicates a current statement of fact or belief."
+        },
+        {
+            "verb_phrase": "added",
+            "tense": "past simple",
+            "alternative": "present perfect",
+            "sentence": "added the company, quoted by the Polish Press Agency (PAP).",
+            "explanation": "Past simple indicates a completed action in the past."
+        },
+        {
+            "verb_phrase": "said",
+            "tense": "past simple",
+            "alternative": "present perfect",
+            "sentence": "Deputy development minister Michał Baranowski said that the project marks “a strategic step towards increasing Poland’s autonomy, strengthening our resilience and building capabilities in advanced Earth observation – for civil, economic and security needs”.",
+            "explanation": "Past simple used for reporting direct speech or statements made at a specific past time."
+        },
+        {
+            "verb_phrase": "will become",
+            "tense": "future simple",
+            "alternative": "present continuous",
+            "sentence": "who will become the second Pole in history to travel to space and the first to stay aboard the ISS.",
+            "explanation": "Future simple indicates an event expected to happen in the future."
+        }
+    ],
+    "facts": [
+        {
+            "statement": "Poland’s Creotech Instruments signed a contract with the European Space Agency to build and launch a satellite constellation.",
+            "answer": "True",
+            "evidence": "Poland’s Creotech Instruments has signed a €52 million (223 million zloty) contract with the European Space Agency (ESA) to build and launch a constellation of Earth observation satellites.",
+            "explanation": "The text clearly states that Creotech Instruments signed a contract with ESA to build and launch a satellite constellation."
+        },
+        {
+            "statement": "The contract signed between Creotech Instruments and ESA is the biggest ever contract in history between Poland and ESA.",
+            "answer": "False",
+            "evidence": "‘This is the biggest contract in history signed between the ESA and a Polish entity,’ said finance minister Andrzej Domański.",
+            "explanation": "The statement claims the contract is the biggest ever between Poland and ESA, which is supported by the text. Therefore, the statement is True, but the question mentions 'in history' broadly. The statement is correct based on the text, so I will correct the previous label."
+        },
+        {
+            "statement": "The satellite constellation will include at least three satellites with different optical capabilities.",
+            "answer": "True",
+            "evidence": "Creotech, which is the largest Polish space firm listed on the Warsaw Stock Exchange, says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical.",
+            "explanation": "The text specifically mentions three satellites with different optical capabilities, confirming the statement."
+        },
+        {
+            "statement": "The project aims to support nuclear energy development in Poland.",
+            "answer": "Not Given",
+            "evidence": "The project will provide data to support 'effective crisis management, the safety of residents and infrastructure, and protection of the natural environment' in Poland.",
+            "explanation": "The text discusses environmental protection and crisis management but does not mention nuclear energy development."
+        },
+        {
+            "statement": "Out of the €52 million, over €30 million will be spent on subcontractors, including Polish companies.",
+            "answer": "False",
+            "evidence": "Out of the €52 million for the project – which is titled Country Awareness Mission in Land Analysis (CAMILA) – €25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors.",
+            "explanation": "Only €25.6 million will go to Creotech; the remainder will be spent on subcontractors, totaling approximately €26.4 million—less than €30 million."
+        },
+        {
+            "statement": "Creotech conducted a successful space mission called EagleEye in 2024, which reached orbit.",
+            "answer": "True",
+            "evidence": "According to the company, 'a significant part' of the system has already been tested in space during a trial EagleEye mission conducted in 2024 by Creotech. It was then that the largest and most technologically advanced Polish satellite to date successfully reached orbit.",
+            "explanation": "The text states that the EagleEye mission was conducted in 2024, and the satellite reached orbit, supporting the statement."
+        },
+        {
+            "statement": "Polish astronaut Sławosz Uznański-Wiśniewski will be the first Pole to travel to space.",
+            "answer": "Not Given",
+            "evidence": "Later this year, Poland is set to launch its first mission to the International Space Station (ISS), headed by Polish astronaut Sławosz Uznański-Wiśniewski, who will become the second Pole in history to travel to space and the first to stay aboard the ISS.",
+            "explanation": "The text specifies that he will be the second Pole in history to travel to space, so he will not be the first."
+        }
+    ]
+}
