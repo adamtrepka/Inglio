@@ -19,7 +19,7 @@ export default function Home() {
   const [flashcards, setFlashcards] = useState<FlashcardData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentSection, setCurrentSection] = useState<'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts'>('intro');
-  const [userName, setUserName] = useState<string>('Pun'); // Example username
+  const [userName, setUserName] = useState<string>('Adam'); // Example username
 
   useEffect(() => {
     setIsLoading(true);
@@ -120,18 +120,6 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-[#050505] text-white max-w-md mx-auto relative">
       {renderHeader()}
       
-      {currentSection === 'intro' && (
-        <div className="px-4 mb-6">
-          <h2 className="text-3xl font-bold mb-4">Your Class</h2>
-          <div className="flex space-x-2 mb-4 overflow-x-auto pb-2 scrollbar-hide">
-            <span className="bg-purple-600 text-white text-sm px-4 py-1.5 rounded-full">Design</span>
-            <span className="bg-white/10 text-white text-sm px-4 py-1.5 rounded-full">Illustration</span>
-            <span className="bg-white/10 text-white text-sm px-4 py-1.5 rounded-full">Marketing</span>
-            <span className="bg-white/10 text-white text-sm px-4 py-1.5 rounded-full">Music</span>
-          </div>
-        </div>
-      )}
-
       <main className="flex-grow px-4 pb-8">
         {renderContent()}
       </main>
