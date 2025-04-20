@@ -16,7 +16,7 @@ export default function FlashcardSection({
   navigateToSection 
 }: FlashcardSectionProps) {
   return (
-    <div className="animate-slide-up">
+    <div className="animate-slide-up w-80">
       {isLoading ? (
         <div className="flex justify-center items-center h-64">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>

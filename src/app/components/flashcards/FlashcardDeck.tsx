@@ -77,7 +77,7 @@ export default function FlashcardDeck({
   };
 
   return (
-    <div className="w-full max-w-md mx-auto">
+    <div>
       <div className="flex flex-col mb-6">
         <div className="flex justify-between items-center mb-3">
           <h2 className="text-xl font-bold text-white">Learning Cards</h2>

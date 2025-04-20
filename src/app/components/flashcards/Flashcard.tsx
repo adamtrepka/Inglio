@@ -45,12 +45,12 @@ export default function Flashcard({ data }: FlashcardProps) {
 
   return (
     <div 
-      className="relative w-full max-w-sm mx-auto h-80 cursor-pointer"
+      className="h-80 cursor-pointer"
       style={{ perspective: "1000px" }}
       onClick={toggleFlip}
     >
       <div 
-        className={`relative w-full h-full transition-all duration-500`}
+        className={`h-full transition-all duration-500`}
         style={{ 
           transformStyle: "preserve-3d",
           transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)"
