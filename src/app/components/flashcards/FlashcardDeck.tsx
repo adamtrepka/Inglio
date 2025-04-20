@@ -77,28 +77,25 @@ export default function FlashcardDeck({
   };
 
   return (
-    <div className="w-full max-w-md mx-auto px-4 py-6">
+    <div className="w-full max-w-md mx-auto">
       <div className="flex flex-col mb-6">
-        <div className="flex justify-between items-center mb-2">
-          <h2 className="text-xl font-bold">Flashcards</h2>
-          <div className="text-sm font-medium">
+        <div className="flex justify-between items-center mb-3">
+          <h2 className="text-xl font-bold text-white">Learning Cards</h2>
+          <div className="text-sm font-medium bg-white/10 px-3 py-1 rounded-full text-white/80">
             {currentIndex + 1} / {flashcards.length}
           </div>
         </div>
         
         {/* Progress bar */}
-        <div className="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+        <div className="w-full bg-[#1E1E1E] rounded-full h-1.5 mb-2">
           <div 
-            className="bg-indigo-600 h-2.5 rounded-full transition-all duration-300 ease-in-out"
+            className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300 ease-in-out"
             style={{ width: `${progressPercentage}%` }}
           ></div>
         </div>
-        <div className="text-xs text-gray-500 text-right">
-          {progressPercentage}% complete
-        </div>
       </div>
       
-      <div className="relative overflow-hidden h-72" style={{ perspective: "1000px" }}>
+      <div className="relative overflow-hidden h-80 mb-6" style={{ perspective: "1000px" }}>
         {/* Card Carousel */}
         <div className="w-full h-full relative">
           {flashcards.map((card, index) => (
@@ -112,7 +109,7 @@ export default function FlashcardDeck({
                 pointerEvents: index === currentIndex ? 'auto' : 'none'
               }}
             >
-              <div className="mx-2">
+              <div className="mx-1">
                 <Flashcard
                   key={`flashcard-${index}`}
                   data={card}
@@ -123,21 +120,34 @@ export default function FlashcardDeck({
         </div>
       </div>
       
-      <div className="flex justify-between items-center mt-8">
+      <div className="flex justify-between items-center mt-4">
         <button 
           onClick={handlePrev}
           disabled={currentIndex === 0 || isAnimating}
-          className="px-4 py-2 rounded-lg bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          className={`h-12 w-12 rounded-full flex items-center justify-center ${currentIndex === 0 ? 'bg-[#121212]/50 text-white/30' : 'bg-[#121212] text-white'}`}
+          aria-label="Previous card"
         >
-          Previous
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
         </button>
         
         <button 
           onClick={currentIndex === flashcards.length - 1 ? handleComplete : handleNext}
           disabled={isAnimating}
-          className="px-4 py-2 rounded-lg bg-indigo-600 text-white disabled:opacity-50 disabled:cursor-not-allowed"
+          className="h-12 px-6 rounded-full bg-indigo-600 text-white flex items-center justify-center font-medium"
+          aria-label={currentIndex === flashcards.length - 1 ? 'Complete' : 'Next card'}
         >
-          {currentIndex === flashcards.length - 1 ? 'Complete' : 'Next'}
+          {currentIndex === flashcards.length - 1 ? (
+            <>Complete</>
+          ) : (
+            <>
+              Next
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 ml-1">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </>
+          )}
         </button>
       </div>
     </div>
@@ -158,36 +168,36 @@ function getCardTransform(
   // Current card
   if (index === currentIndex) {
     if (direction === 'left' && isAnimating) {
-      return `translateX(calc(-100% - ${gap}))`;
+      return `translateX(calc(-100% - ${gap})) rotateY(-10deg)`;
     } else if (direction === 'right' && isAnimating) {
-      return `translateX(calc(100% + ${gap}))`;
+      return `translateX(calc(100% + ${gap})) rotateY(10deg)`;
     } else {
-      return 'translateX(0)';
+      return 'translateX(0) rotateY(0)';
     }
   }
   
   // Next card
   if (index === currentIndex + 1) {
     if (direction === 'left' && isAnimating) {
-      return 'translateX(0)';
+      return 'translateX(0) rotateY(0)';
     } else {
-      return `translateX(calc(100% + ${gap}))`;
+      return `translateX(calc(100% + ${gap})) rotateY(10deg)`;
     }
   }
   
   // Previous card
   if (index === currentIndex - 1) {
     if (direction === 'right' && isAnimating) {
-      return 'translateX(0)';
+      return 'translateX(0) rotateY(0)';
     } else {
-      return `translateX(calc(-100% - ${gap}))`;
+      return `translateX(calc(-100% - ${gap})) rotateY(-10deg)`;
     }
   }
   
   // Other cards, position off-screen with extra gap
   return index < currentIndex 
-    ? `translateX(calc(-200% - ${gap} * 2))` 
-    : `translateX(calc(200% + ${gap} * 2))`;
+    ? `translateX(calc(-200% - ${gap} * 2)) rotateY(-15deg)` 
+    : `translateX(calc(200% + ${gap} * 2)) rotateY(15deg)`;
 }
 
 function getCardOpacity(
@@ -213,7 +223,7 @@ function getCardOpacity(
   
   // Cards that are adjacent but not animating
   if (index === currentIndex + 1 || index === currentIndex - 1) {
-    return 0;
+    return 0.3;
   }
   
   // All other cards

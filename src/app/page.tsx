@@ -19,6 +19,7 @@ export default function Home() {
   const [flashcards, setFlashcards] = useState<FlashcardData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentSection, setCurrentSection] = useState<'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts'>('intro');
+  const [userName, setUserName] = useState<string>('Pun'); // Example username
 
   useEffect(() => {
     setIsLoading(true);
@@ -81,24 +82,59 @@ export default function Home() {
     }
   };
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto py-4 px-4">
-          <h1 className="text-2xl font-bold text-gray-900">Inglio</h1>
-          <p className="text-sm text-gray-600">Learn English with interactive exercises</p>
+  const renderHeader = () => {
+    if (currentSection === 'intro') {
+      return (
+        <div className="px-4 py-5 flex justify-between items-center">
+          <div>
+            <h1 className="text-2xl font-bold text-gradient">Hello, {userName}</h1>
+            <div className="flex items-center space-x-2 mt-1">
+              <span className="bg-yellow-500/20 text-yellow-500 text-xs px-2 py-0.5 rounded-full">Basic member</span>
+            </div>
+          </div>
+          <div className="h-10 w-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-white font-bold">
+            {userName.charAt(0)}
+          </div>
         </div>
-      </header>
+      );
+    } else {
+      return (
+        <div className="px-4 py-5 flex justify-between items-center">
+          <button 
+            onClick={() => navigateToSection('intro')}
+            className="h-8 w-8 rounded-full flex items-center justify-center bg-[#121212]/80"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+          <div className="h-10 w-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-white font-bold">
+            {userName.charAt(0)}
+          </div>
+        </div>
+      );
+    }
+  };
 
-      <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+  return (
+    <div className="min-h-screen flex flex-col bg-[#050505] text-white max-w-md mx-auto relative">
+      {renderHeader()}
+      
+      {currentSection === 'intro' && (
+        <div className="px-4 mb-6">
+          <h2 className="text-3xl font-bold mb-4">Your Class</h2>
+          <div className="flex space-x-2 mb-4 overflow-x-auto pb-2 scrollbar-hide">
+            <span className="bg-purple-600 text-white text-sm px-4 py-1.5 rounded-full">Design</span>
+            <span className="bg-white/10 text-white text-sm px-4 py-1.5 rounded-full">Illustration</span>
+            <span className="bg-white/10 text-white text-sm px-4 py-1.5 rounded-full">Marketing</span>
+            <span className="bg-white/10 text-white text-sm px-4 py-1.5 rounded-full">Music</span>
+          </div>
+        </div>
+      )}
+
+      <main className="flex-grow px-4 pb-8">
         {renderContent()}
       </main>
-      
-      <footer className="bg-white border-t border-gray-200 mt-auto">
-        <div className="max-w-7xl mx-auto py-4 px-4 text-center text-sm text-gray-500">
-          © 2025 Inglio - Mobile English Learning App
-        </div>
-      </footer>
     </div>
   );
 }
