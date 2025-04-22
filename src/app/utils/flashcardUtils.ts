@@ -3,31 +3,33 @@ import exerciseData from '../exercise.json';
 import { FlashcardData, Word, PhrasalVerb } from '../types/flashcards';
 
 /**
- * Loads word data from the exercise.json file
+ * Loads word data from the exercise.json file for a specific article
  */
-export const loadWordFlashcards = (): FlashcardData[] => {
-  return exerciseData.words.map((word: Word) => ({
+export const loadWordFlashcards = (articleIndex: number = 0): FlashcardData[] => {
+  const article = exerciseData.exercises[articleIndex];
+  return article.words.map((word: Word) => ({
     item: word,
     type: 'word'
   }));
 };
 
 /**
- * Loads phrasal verb data from the exercise.json file
+ * Loads phrasal verb data from the exercise.json file for a specific article
  */
-export const loadPhrasalVerbFlashcards = (): FlashcardData[] => {
-  return exerciseData.phrasal_verbs.map((phrasal: PhrasalVerb) => ({
+export const loadPhrasalVerbFlashcards = (articleIndex: number = 0): FlashcardData[] => {
+  const article = exerciseData.exercises[articleIndex];
+  return article.phrasal_verbs.map((phrasal: PhrasalVerb) => ({
     item: phrasal,
     type: 'phrasal_verb'
   }));
 };
 
 /**
- * Loads both word and phrasal verb flashcards
+ * Loads both word and phrasal verb flashcards for a specific article
  */
-export const loadAllFlashcards = (): FlashcardData[] => {
-  const words = loadWordFlashcards();
-  const phrasalVerbs = loadPhrasalVerbFlashcards();
+export const loadAllFlashcards = (articleIndex: number = 0): FlashcardData[] => {
+  const words = loadWordFlashcards(articleIndex);
+  const phrasalVerbs = loadPhrasalVerbFlashcards(articleIndex);
   return [...words, ...phrasalVerbs];
 };
 

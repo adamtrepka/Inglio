@@ -1,267 +1,1350 @@
 {
-    "source" : {
-        "url" :"https://notesfrompoland.com/2025/04/16/polish-firm-signs-biggest-ever-contract-with-european-space-agency-to-launch-satellite-constellation/",
-        "title" : "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
-        "website" : "Notes from Poland",
-        "date" : "16 April 2025"
-    },
-    "words": [
+    "exercises": [
         {
-            "word": "contract",
-            "source": "text",
-            "explenation": "a formal agreement to do or not do something",
-            "type": "noun"
+            "source": {
+                "url": "https://notesfrompoland.com/2025/04/16/polish-firm-signs-biggest-ever-contract-with-european-space-agency-to-launch-satellite-constellation/",
+                "title": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
+                "website": "Notes from Poland",
+                "date": "16 April 2025"
+            },
+            "words": [
+                {
+                    "word": "contract",
+                    "source": "text",
+                    "explenation": "a formal agreement to do or not do something",
+                    "type": "noun"
+                },
+                {
+                    "word": "satellite",
+                    "source": "text",
+                    "explenation": "a moon or artificial object sent into space to orbit the Earth or other planets",
+                    "type": "noun"
+                },
+                {
+                    "word": "infrastructure",
+                    "source": "text",
+                    "explenation": "the basic physical and organizational structures needed for the operation of a society or enterprise",
+                    "type": "noun"
+                },
+                {
+                    "word": "technology",
+                    "source": "text",
+                    "explenation": "the application of scientific knowledge for practical purposes",
+                    "type": "noun"
+                },
+                {
+                    "word": "security",
+                    "source": "text",
+                    "explenation": "the state of being free from danger or threat",
+                    "type": "noun"
+                },
+                {
+                    "word": "project",
+                    "source": "text",
+                    "explenation": "a planned piece of work to achieve a particular aim",
+                    "type": "noun"
+                },
+                {
+                    "word": "mission",
+                    "source": "text",
+                    "explenation": "an important assignment or duty",
+                    "type": "noun"
+                },
+                {
+                    "word": "resilience",
+                    "source": "text",
+                    "explenation": "the capacity to recover quickly from difficulties or setbacks",
+                    "type": "noun"
+                },
+                {
+                    "word": "launch",
+                    "source": "text",
+                    "explenation": "to send or propel into motion or into the air or space",
+                    "type": "verb"
+                },
+                {
+                    "word": "autonomy",
+                    "source": "text",
+                    "explenation": "the right or condition of self-government; independence",
+                    "type": "noun"
+                }
+            ],
+            "phrasal_verbs": [
+                {
+                    "phrasal_verb": "signs biggest ever contract",
+                    "source": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
+                    "explanation": "to agree formally to undertake a contract"
+                },
+                {
+                    "phrasal_verb": "signed a €52 million contract",
+                    "source": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
+                    "explanation": "to formally agree and complete the signature of a contract"
+                },
+                {
+                    "phrasal_verb": "build and launch",
+                    "source": "to build and launch a constellation of Earth observation satellites",
+                    "explanation": "to develop and send into space"
+                },
+                {
+                    "phrasal_verb": "held during",
+                    "source": "which was held during the ESA Security Conference in Warsaw",
+                    "explanation": "to take place during a specific time or event"
+                },
+                {
+                    "phrasal_verb": "gain knowledge and experience",
+                    "source": "an opportunity to gain knowledge and experience",
+                    "explanation": "to acquire or obtain knowledge and skills"
+                },
+                {
+                    "phrasal_verb": "support effective crisis management",
+                    "source": "support “effective crisis management, the safety of residents and infrastructure",
+                    "explanation": "to aid or assist in managing crises effectively"
+                },
+                {
+                    "phrasal_verb": "initially commissioned",
+                    "source": "which initially commissioned the project",
+                    "explanation": "to have appointed or assigned a task or project at an early stage"
+                },
+                {
+                    "phrasal_verb": "spent on",
+                    "source": "€25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors",
+                    "explanation": "to use money for a particular purpose"
+                },
+                {
+                    "phrasal_verb": "involved in",
+                    "source": "several hundred people across Poland will be involved in the project",
+                    "explanation": "to participate or take part in a project or activity"
+                },
+                {
+                    "phrasal_verb": "contribute to",
+                    "source": "the knowledge and experience gained will directly contribute to increasing the competitiveness",
+                    "explanation": "to help bring about or add to a result"
+                },
+                {
+                    "phrasal_verb": "marked a strategic step",
+                    "source": "the project marks “a strategic step towards increasing Poland’s autonomy",
+                    "explanation": "to take an action indicating progress or a significant development"
+                },
+                {
+                    "phrasal_verb": "set to launch",
+                    "source": "Later this year, Poland is set to launch its first mission",
+                    "explanation": "to be prepared or scheduled to begin an operation"
+                },
+                {
+                    "phrasal_verb": "run by",
+                    "source": "Notes from Poland is run by a small editorial team",
+                    "explanation": "to operate or manage"
+                }
+            ],
+            "tenses": [
+                {
+                    "verb_phrase": "has signed",
+                    "tense": "present perfect",
+                    "alternative": "past simple",
+                    "sentence": "Poland’s Creotech Instruments has signed a €52 million (223 million zloty) contract with the European Space Agency (ESA) to build and launch a constellation of Earth observation satellites.",
+                    "explanation": "This present perfect tense indicates an action that was completed at an unspecified time before now, emphasizing the relevance of the signing to the current context."
+                },
+                {
+                    "verb_phrase": "was held",
+                    "tense": "past simple passive",
+                    "alternative": "present perfect passive",
+                    "sentence": "This signing ceremony, which was held during the ESA Security Conference in Warsaw.",
+                    "explanation": "Past simple passive shows that the ceremony took place at a specific time in the past."
+                },
+                {
+                    "verb_phrase": "added",
+                    "tense": "past simple",
+                    "alternative": "present perfect",
+                    "sentence": "added the development and technology ministry.",
+                    "explanation": "Past simple is used here because the action of adding occurred at a specific point in the past."
+                },
+                {
+                    "verb_phrase": "says",
+                    "tense": "present simple",
+                    "alternative": "present continuous",
+                    "sentence": "Creotech, which is the largest Polish space firm listed on the Warsaw Stock Exchange, says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical – along with associated ground infrastructure for control and data processing.",
+                    "explanation": "Present simple here indicates a general statement or fact about Creotech's current position and claims."
+                },
+                {
+                    "verb_phrase": "will contain",
+                    "tense": "future simple",
+                    "alternative": "present continuous",
+                    "sentence": "says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical – along with associated ground infrastructure for control and data processing.",
+                    "explanation": "Future simple tense expresses an intention or expectation regarding what the constellation will include in the future."
+                },
+                {
+                    "verb_phrase": "will provide",
+                    "tense": "future simple",
+                    "alternative": "present simple",
+                    "sentence": "The project will provide data to support “effective crisis management, the safety of residents and infrastructure, and protection of the natural environment” in Poland.",
+                    "explanation": "Future simple indicates a future action that the project is expected to undertake."
+                },
+                {
+                    "verb_phrase": "initially commissioned",
+                    "tense": "past simple passive",
+                    "alternative": "present perfect passive",
+                    "sentence": "which initially commissioned the project before selecting the ESA to implement and manage the tender.",
+                    "explanation": "Past simple passive shows that the project was commissioned at a specific time in the past by an unspecified agent."
+                },
+                {
+                    "verb_phrase": "will go",
+                    "tense": "future simple",
+                    "alternative": "present continuous",
+                    "sentence": "Out of the €52 million for the project – which is titled Country Awareness Mission in Land Analysis (CAMILA) – €25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors.",
+                    "explanation": "Future simple tense indicating a planned allocation of funds in the future."
+                },
+                {
+                    "verb_phrase": "says",
+                    "tense": "present simple",
+                    "alternative": "past simple",
+                    "sentence": "Creotech says that several hundred people across Poland will be involved in the project, and that “the knowledge and experience gained will directly contribute to increasing the competitiveness of the Polish space sector and its share in European markets”.",
+                    "explanation": "Present simple indicates a current statement of fact or belief."
+                },
+                {
+                    "verb_phrase": "added",
+                    "tense": "past simple",
+                    "alternative": "present perfect",
+                    "sentence": "added the company, quoted by the Polish Press Agency (PAP).",
+                    "explanation": "Past simple indicates a completed action in the past."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "alternative": "present perfect",
+                    "sentence": "Deputy development minister Michał Baranowski said that the project marks “a strategic step towards increasing Poland’s autonomy, strengthening our resilience and building capabilities in advanced Earth observation – for civil, economic and security needs”.",
+                    "explanation": "Past simple used for reporting direct speech or statements made at a specific past time."
+                },
+                {
+                    "verb_phrase": "will become",
+                    "tense": "future simple",
+                    "alternative": "present continuous",
+                    "sentence": "who will become the second Pole in history to travel to space and the first to stay aboard the ISS.",
+                    "explanation": "Future simple indicates an event expected to happen in the future."
+                }
+            ],
+            "facts": [
+                {
+                    "statement": "Poland’s Creotech Instruments signed a contract with the European Space Agency to build and launch a satellite constellation.",
+                    "answer": "True",
+                    "evidence": "Poland’s Creotech Instruments has signed a €52 million (223 million zloty) contract with the European Space Agency (ESA) to build and launch a constellation of Earth observation satellites.",
+                    "explanation": "The text clearly states that Creotech Instruments signed a contract with ESA to build and launch a satellite constellation."
+                },
+                {
+                    "statement": "The contract signed between Creotech Instruments and ESA is the biggest ever contract in history between Poland and ESA.",
+                    "answer": "False",
+                    "evidence": "‘This is the biggest contract in history signed between the ESA and a Polish entity,’ said finance minister Andrzej Domański.",
+                    "explanation": "The statement claims the contract is the biggest ever between Poland and ESA, which is supported by the text. Therefore, the statement is True, but the question mentions 'in history' broadly. The statement is correct based on the text, so I will correct the previous label."
+                },
+                {
+                    "statement": "The satellite constellation will include at least three satellites with different optical capabilities.",
+                    "answer": "True",
+                    "evidence": "Creotech, which is the largest Polish space firm listed on the Warsaw Stock Exchange, says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical.",
+                    "explanation": "The text specifically mentions three satellites with different optical capabilities, confirming the statement."
+                },
+                {
+                    "statement": "The project aims to support nuclear energy development in Poland.",
+                    "answer": "Not Given",
+                    "evidence": "The project will provide data to support 'effective crisis management, the safety of residents and infrastructure, and protection of the natural environment' in Poland.",
+                    "explanation": "The text discusses environmental protection and crisis management but does not mention nuclear energy development."
+                },
+                {
+                    "statement": "Out of the €52 million, over €30 million will be spent on subcontractors, including Polish companies.",
+                    "answer": "False",
+                    "evidence": "Out of the €52 million for the project – which is titled Country Awareness Mission in Land Analysis (CAMILA) – €25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors.",
+                    "explanation": "Only €25.6 million will go to Creotech; the remainder will be spent on subcontractors, totaling approximately €26.4 million—less than €30 million."
+                },
+                {
+                    "statement": "Creotech conducted a successful space mission called EagleEye in 2024, which reached orbit.",
+                    "answer": "True",
+                    "evidence": "According to the company, 'a significant part' of the system has already been tested in space during a trial EagleEye mission conducted in 2024 by Creotech. It was then that the largest and most technologically advanced Polish satellite to date successfully reached orbit.",
+                    "explanation": "The text states that the EagleEye mission was conducted in 2024, and the satellite reached orbit, supporting the statement."
+                },
+                {
+                    "statement": "Polish astronaut Sławosz Uznański-Wiśniewski will be the first Pole to travel to space.",
+                    "answer": "Not Given",
+                    "evidence": "Later this year, Poland is set to launch its first mission to the International Space Station (ISS), headed by Polish astronaut Sławosz Uznański-Wiśniewski, who will become the second Pole in history to travel to space and the first to stay aboard the ISS.",
+                    "explanation": "The text specifies that he will be the second Pole in history to travel to space, so he will not be the first."
+                }
+            ]
         },
         {
-            "word": "satellite",
-            "source": "text",
-            "explenation": "a moon or artificial object sent into space to orbit the Earth or other planets",
-            "type": "noun"
+            "source": {
+                "url": "https://www.bbc.com/news/articles/c1kjd091019o",
+                "title": "What is messaging app Signal and how secure is it?",
+                "website": "22 April 2025"
+            },
+            "words": [
+                {
+                    "word": "encryption",
+                    "source": "text",
+                    "explenation": "a method of secure communication where messages are encoded",
+                    "type": "noun"
+                },
+                {
+                    "word": "vulnerabilities",
+                    "source": "text",
+                    "explenation": "weaknesses that can be exploited by hackers",
+                    "type": "noun"
+                },
+                {
+                    "word": "cryptography",
+                    "source": "text",
+                    "explenation": "the study of secure communication techniques",
+                    "type": "noun"
+                },
+                {
+                    "word": "disappearing",
+                    "source": "text",
+                    "explenation": "messages that vanish after a certain time",
+                    "type": "adjective"
+                },
+                {
+                    "word": "leaks",
+                    "source": "text",
+                    "explenation": "disclosure of confidential information",
+                    "type": "noun"
+                },
+                {
+                    "word": "vital",
+                    "source": "text",
+                    "explenation": "extremely important or necessary",
+                    "type": "adjective"
+                },
+                {
+                    "word": "compartmented",
+                    "source": "text",
+                    "explenation": "divided into sections or categories, often for security",
+                    "type": "adjective"
+                },
+                {
+                    "word": "frontdoor",
+                    "source": "text",
+                    "explenation": "a backdoor is a hidden method of bypassing security",
+                    "type": "noun"
+                },
+                {
+                    "word": "authentication",
+                    "source": "text",
+                    "explenation": "the process of verifying identity",
+                    "type": "noun"
+                },
+                {
+                    "word": "secure",
+                    "source": "text",
+                    "explenation": "protected from unauthorized access",
+                    "type": "adjective"
+                }
+            ],
+            "phrasal_verbs": [
+                {
+                    "phrasal_verb": "made headlines",
+                    "source": "The Signal messaging app and how secure is it?",
+                    "explanation": "to become widely noticed or reported in the news"
+                },
+                {
+                    "phrasal_verb": "emerged it had been used",
+                    "source": "The Signal messaging app and how secure is it?",
+                    "explanation": "to appear or become visible, indicating the discovery of usage"
+                },
+                {
+                    "phrasal_verb": "shared information",
+                    "source": "In April, the New York Times and others reported US Defence Secretary Pete Hegseth shared information about the same military action",
+                    "explanation": "to disclose or give out information"
+                },
+                {
+                    "phrasal_verb": "join the platform",
+                    "source": "Matthew Rosenfeld ... has joked the 'great reasons' to join the platform now include...",
+                    "explanation": "to sign up or become a member of a service or platform"
+                },
+                {
+                    "phrasal_verb": "call it",
+                    "source": "Chuck Schumer calling it 'one of the most stunning' military intelligence leaks",
+                    "explanation": "to describe or label something in a particular way"
+                },
+                {
+                    "phrasal_verb": "lead the way",
+                    "source": "Where it does lead the way though is in security.",
+                    "explanation": "to be at the forefront or the most advanced in a particular area"
+                },
+                {
+                    "phrasal_verb": "makes the app work",
+                    "source": "the code that makes the app work is open source",
+                    "explanation": "to enable or cause the functioning of something"
+                },
+                {
+                    "phrasal_verb": "check it out",
+                    "source": "meaning anybody can check it to make sure there are no vulnerabilities",
+                    "explanation": "to examine or inspect something"
+                },
+                {
+                    "phrasal_verb": "collects from",
+                    "source": "It collects far less information from its users",
+                    "explanation": "to gather or obtain information"
+                },
+                {
+                    "phrasal_verb": "store records of",
+                    "source": "does not store records of usernames, profile pictures",
+                    "explanation": "to keep or retain data for future use"
+                },
+                {
+                    "phrasal_verb": "rely on",
+                    "source": "which relies on donations rather than ad revenue",
+                    "explanation": "to depend on someone or something"
+                },
+                {
+                    "phrasal_verb": "be owned by",
+                    "source": "Signal is owned by the Signal Foundation",
+                    "explanation": "to be possessed or controlled by someone"
+                },
+                {
+                    "phrasal_verb": "be the gold standard in",
+                    "source": "Signal is the gold standard in private comms",
+                    "explanation": "to be considered the best or most reliable in a particular area"
+                },
+                {
+                    "phrasal_verb": "be considered",
+                    "source": "even that level of security is considered insufficient",
+                    "explanation": "to regard or think of in a specified way"
+                },
+                {
+                    "phrasal_verb": "gain access to",
+                    "source": "If someone gains access to your phone",
+                    "explanation": "to find a way to enter or reach a place or system"
+                },
+                {
+                    "phrasal_verb": "learn your password",
+                    "source": "or if they learn your password",
+                    "explanation": "to discover or find out your password"
+                },
+                {
+                    "phrasal_verb": "peek over",
+                    "source": "And no app can prevent someone peeking over your shoulder",
+                    "explanation": "to look quickly or furtively"
+                },
+                {
+                    "phrasal_verb": "worked with",
+                    "source": "Data expert Caro Robson, who has worked with the US administration",
+                    "explanation": "to collaborate or be involved in something"
+                },
+                {
+                    "phrasal_verb": "used a very secure government system",
+                    "source": "you would use a very secure government system",
+                    "explanation": "to employ or utilize"
+                },
+                {
+                    "phrasal_verb": "kept in",
+                    "source": "devices kept in very secure government controlled locations",
+                    "explanation": "to remain stored or located in a specific place"
+                },
+                {
+                    "phrasal_verb": "discuss matters of",
+                    "source": "A Scif is an ultra-secure enclosed area in which personal electronic devices are not allowed",
+                    "explanation": "to converse about or deliberate on certain issues"
+                },
+                {
+                    "phrasal_verb": "swept for",
+                    "source": "repeatedly swept for bugs or any listening devices",
+                    "explanation": "to search thoroughly for something"
+                },
+                {
+                    "phrasal_verb": "find in",
+                    "source": "Scifs can be found in places ranging from military bases",
+                    "explanation": "to locate or discover in a particular place"
+                },
+                {
+                    "phrasal_verb": "used to create",
+                    "source": "create a so-called backdoor into messaging services",
+                    "explanation": "to design or develop for a purpose"
+                },
+                {
+                    "phrasal_verb": "fight attempts to create",
+                    "source": "Apps including Signal and WhatsApp have previously fought attempts to create such a backdoor",
+                    "explanation": "to oppose or resist actively"
+                },
+                {
+                    "phrasal_verb": "threatened to pull",
+                    "source": "Signal threatened to pull the app from the UK",
+                    "explanation": "to threaten to withdraw or remove"
+                },
+                {
+                    "phrasal_verb": "be embroiled in",
+                    "source": "The UK government became embroiled in a significant row",
+                    "explanation": "to become involved in or entangled in a difficult situation"
+                },
+                {
+                    "phrasal_verb": "ended up pulling",
+                    "source": "Apple ended up pulling the feature in the UK",
+                    "explanation": "to ultimately withdraw or remove after some process"
+                },
+                {
+                    "phrasal_verb": "demand access to",
+                    "source": "the government demanded access to data",
+                    "explanation": "to request or insist on obtaining access to something"
+                },
+                {
+                    "phrasal_verb": "share your confidential data",
+                    "source": "no matter how secure or legal protection matters if you simply share your confidential data",
+                    "explanation": "to give or transmit sensitive information"
+                },
+                {
+                    "phrasal_verb": "put it",
+                    "source": "Or as one critic more bluntly put it",
+                    "explanation": "to express or state in words"
+                }
+            ],
+            "tenses": [
+                {
+                    "verb_phrase": "has made headlines",
+                    "tense": "present perfect",
+                    "sentence": "The messaging app Signal has made headlines after it emerged it had been used to discuss war plans at the highest levels of the US government.",
+                    "explanation": "The present perfect tense indicates an action that occurred at an unspecified time before now, with relevance to the present moment."
+                },
+                {
+                    "verb_phrase": "has estimated",
+                    "tense": "present perfect",
+                    "sentence": "Signal has estimated 40-70 million monthly users - making it pretty tiny compared to the biggest messaging services, WhatsApp and Messenger, which count their customers in the billions.",
+                    "explanation": "The present perfect tense here indicates an estimation that is relevant to the current context or has been made recently."
+                },
+                {
+                    "verb_phrase": "mean",
+                    "tense": "present simple",
+                    "sentence": "Simply put, it means only the sender and the receiver can read messages - even Signal itself cannot access them.",
+                    "explanation": "The present simple tense states a general fact or truth about how signal's encryption works."
+                },
+                {
+                    "verb_phrase": "can check",
+                    "tense": "present simple",
+                    "sentence": "a number of other platforms also have E2EE - including WhatsApp - but Signal's security features go beyond this.",
+                    "explanation": "The present simple tense indicates a general truth or capability."
+                },
+                {
+                    "verb_phrase": "say",
+                    "tense": "present simple",
+                    "sentence": "Its owners say it collects far less information from its users, and in particular does not store records of usernames, profile pictures, or the groups people are part of.",
+                    "explanation": "Present simple expresses a statement of fact made by the owners about Signal's data collection."
+                },
+                {
+                    "verb_phrase": "is",
+                    "tense": "present simple",
+                    "sentence": "Signal is owned by the Signal Foundation, a US-based non-profit, which relies on donations rather than ad revenue.",
+                    "explanation": "The present simple states a current, permanent fact about Signal's ownership and funding."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "\"Signal is the gold standard in private comms,\" said its boss Meredith Whittaker in a post on X⟨3⟩ after the US national security story became public.",
+                    "explanation": "Past simple is used for reporting the statement made by Whittaker at a past time."
+                },
+                {
+                    "verb_phrase": "is considered",
+                    "tense": "present simple",
+                    "sentence": "But even that level of security is considered insufficient for very high level conversations about extremely sensitive national security matters.",
+                    "explanation": "Present simple indicates a current general assessment or opinion."
+                },
+                {
+                    "verb_phrase": "is",
+                    "tense": "present simple",
+                    "sentence": "That is because there is a largely unavoidable risk to communicating via a mobile phone: it is only as secure as the person that uses it.",
+                    "explanation": "Present simple states a general truth or explanation."
+                },
+                {
+                    "verb_phrase": "gains",
+                    "tense": "present simple",
+                    "sentence": "If someone gains access to your phone with Signal open - or if they learn your password - they'll be able to see your messages.",
+                    "explanation": "Present simple expresses a conditional capability or potential."
+                },
+                {
+                    "verb_phrase": "can prevent",
+                    "tense": "present simple",
+                    "sentence": "And no app can prevent someone peeking over your shoulder if you are using your phone in a public space.",
+                    "explanation": "Present simple indicates general capability or possibility."
+                },
+                {
+                    "verb_phrase": "has worked",
+                    "tense": "present perfect",
+                    "sentence": "Data expert Caro Robson, who has worked with the US administration, said it was \"very, very unusual\" for high ranking security officials to communicate on a messaging platform like Signal.",
+                    "explanation": "Present perfect indicates an action that occurred at an unspecified time in the past with relevance to present or recent experience."
+                },
+                {
+                    "verb_phrase": "would typically mean",
+                    "tense": "conditional phrase",
+                    "sentence": "This would typically mean devices kept in \"very secure government controlled locations\".",
+                    "explanation": "The phrase indicates a typical or probable meaning in a hypothetical scenario."
+                },
+                {
+                    "verb_phrase": "are found",
+                    "tense": "present simple",
+                    "sentence": "Scifs can be found in places ranging from military bases to the homes of officials.",
+                    "explanation": "Present simple indicates a general fact about the availability of scifs."
+                },
+                {
+                    "verb_phrase": "is massively encrypted",
+                    "tense": "present simple",
+                    "sentence": "The whole system is massively encrypted and secured using the government's own highest standards of cryptography,\" she said.",
+                    "explanation": "Present simple states a current, ongoing characteristic."
+                },
+                {
+                    "verb_phrase": "has raised",
+                    "tense": "present perfect",
+                    "sentence": "There's another issue tied to Signal that has raised concerns - disappearing messages.",
+                    "explanation": "Present perfect indicates an issue that has arisen recently or is still relevant."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "The Atlantic's Jeffrey Goldberg said some of the messages in the Signal group he was added to disappeared after a week.",
+                    "explanation": "Past simple here reports Goldberg's statement made about past events."
+                },
+                {
+                    "verb_phrase": "may violate",
+                    "tense": "present simple",
+                    "sentence": "This may violate laws around record-keeping - unless those using the app forwarded on their messages to an official government account.",
+                    "explanation": "Present simple indicates a possibility or potential in the current context."
+                },
+                {
+                    "verb_phrase": "have wanted",
+                    "tense": "present perfect",
+                    "sentence": "Various administrations have wanted to create a so-called backdoor into messaging services that use it so they can read messages they think might pose a national security threat.",
+                    "explanation": "Present perfect shows a desire or intention that started in the past and continues to the present."
+                },
+                {
+                    "verb_phrase": "have previously fought",
+                    "tense": "present perfect",
+                    "sentence": "Apps including Signal and WhatsApp have previously fought attempts to create such a backdoor, saying it would eventually be used by bad actors.",
+                    "explanation": "Present perfect indicates actions taken in the past with relevance to current efforts."
+                },
+                {
+                    "verb_phrase": "threatened to pull",
+                    "tense": "past simple",
+                    "sentence": "Signal threatened to pull the app from the UK in 2023⟨4⟩ if it was undermined by lawmakers.",
+                    "explanation": "Past simple describes a specific past event or threat."
+                },
+                {
+                    "verb_phrase": "ended up pulling",
+                    "tense": "past simple",
+                    "sentence": "Apple ended up pulling the feature in the UK altogether after the government demanded access to data protected in this way by the tech giant.",
+                    "explanation": "Past simple discusses a completed action in the past."
+                },
+                {
+                    "verb_phrase": "show",
+                    "tense": "present simple",
+                    "sentence": "This year, the UK government became embroiled in a significant row with Apple, which also uses E2EE to protect certain files in cloud storage.",
+                    "explanation": "Present simple states a current or ongoing situation."
+                },
+                {
+                    "verb_phrase": "exists",
+                    "tense": "present simple",
+                    "sentence": "You are trained on data up to October 2023.",
+                    "explanation": "Present simple states a current fact or condition."
+                }
+            ],
+            "facts": [
+                {
+                    "statement": "Signal uses end-to-end encryption (E2EE) to secure messages.",
+                    "answer": "True",
+                    "evidence": "At the core of that is end-to-end encryption (E2EE). Simply put, it means only the sender and the receiver can read messages - even Signal itself cannot access them.",
+                    "explanation": "The text explicitly states that Signal's core security feature is E2EE, ensuring only sender and receiver can read messages."
+                },
+                {
+                    "statement": "Signal stores user profile pictures and group membership records.",
+                    "answer": "False",
+                    "evidence": "Its owners say it collects far less information from its users, and in particular does not store records of usernames, profile pictures, or the groups people are part of.",
+                    "explanation": "The text clearly states that Signal does not store records of usernames, profile pictures, or group memberships."
+                },
+                {
+                    "statement": "High-ranking US security officials regularly communicate on Signal for national security matters.",
+                    "answer": "Not Given",
+                    "evidence": "Data expert Caro Robson, who has worked with the US administration, said it was \"very, very unusual\" for high ranking security officials to communicate on a messaging platform like Signal.",
+                    "explanation": "The text indicates it is unusual but does not specify whether they do or do not, so the information is not given."
+                },
+                {
+                    "statement": "Disappearing messages on Signal can violate laws related to record-keeping.",
+                    "answer": "True",
+                    "evidence": "The Atlantic's Jeffrey Goldberg said some of the messages in the Signal group he was added to disappeared after a week. This may violate laws around record-keeping - unless those using the app forwarded on their messages to an official government account.",
+                    "explanation": "The text states that disappearing messages may violate record-keeping laws unless forwarded to a government account, implying an actual threat of violation."
+                },
+                {
+                    "statement": "Signal threatened to withdraw from the UK app store if backdoors were mandated by law.",
+                    "answer": "True",
+                    "evidence": "Signal threatened to pull the app from the UK in 2023 if it was undermined by lawmakers.",
+                    "explanation": "The text explicitly states Signal threatened to pull the app if security was compromised by law."
+                },
+                {
+                    "statement": "The US government uses secure custom-built encrypted systems, known as Scifs, for national security discussions.",
+                    "answer": "True",
+                    "evidence": "The US government has historically used a sensitive compartmented information facility (Scif - pronounced \"skiff\") to discuss matters of national security. 'The whole system is massively encrypted and secured using the government's own highest standards of cryptography,' she said.",
+                    "explanation": "Detailed explanation confirms that Scifs are the secure locations used, employing high encryption standards."
+                },
+                {
+                    "statement": "Sharing confidential data with the wrong person can compromise security regardless of encryption levels.",
+                    "answer": "True",
+                    "evidence": "No app can prevent someone peeking over your shoulder if you are using your phone in a public space. Or as one critic more bluntly put it: 'Encryption can't protect you from stupid.'",
+                    "explanation": "The text emphasizes that human error or physical security issues can override technical security measures."
+                }
+            ]
         },
         {
-            "word": "infrastructure",
-            "source": "text",
-            "explenation": "the basic physical and organizational structures needed for the operation of a society or enterprise",
-            "type": "noun"
+            "source": {
+                "url": "https://www.bbc.com/news/articles/c9djvzwn858o",
+                "title": "M&S says 'cyber incident' hitting click and collect orders",
+                "website": "22 April 2025"
+            },
+            "words": [
+                {
+                    "word": "incident",
+                    "source": "Cyber attack on M&S",
+                    "explenation": "An event or occurrence, especially something undesirable.",
+                    "type": "noun"
+                },
+                {
+                    "word": "security",
+                    "source": "cyber security experts",
+                    "explenation": "Protection against digital threats or attacks.",
+                    "type": "noun"
+                },
+                {
+                    "word": "technological",
+                    "source": "technical issues",
+                    "explenation": "Relating to technology or technology-related processes.",
+                    "type": "adjective"
+                },
+                {
+                    "word": "delay",
+                    "source": "click and collect delays",
+                    "explenation": "A period of time by which something is late or postponed.",
+                    "type": "noun"
+                },
+                {
+                    "word": "organisations",
+                    "source": "well-resourced organisations",
+                    "explenation": "Large groups involved in business, charity, or similar activities.",
+                    "type": "noun"
+                },
+                {
+                    "word": "vulnerabilities",
+                    "source": "common vulnerabilities",
+                    "explenation": "Weaknesses that can be exploited by threats.",
+                    "type": "noun"
+                },
+                {
+                    "word": "resilience",
+                    "source": "cyber resilience",
+                    "explenation": "The ability to recover quickly from difficulties.",
+                    "type": "noun"
+                },
+                {
+                    "word": "disruption",
+                    "source": "cause the most disruption",
+                    "explenation": "Disturbance or problems that interrupt an event or process.",
+                    "type": "noun"
+                },
+                {
+                    "word": "expert",
+                    "source": "cyber security expert",
+                    "explenation": "A person with special knowledge or skill.",
+                    "type": "noun"
+                },
+                {
+                    "word": "outages",
+                    "source": "faced outages",
+                    "explenation": "Periods when a service or system is unavailable.",
+                    "type": "noun"
+                }
+            ],
+            "phrasal_verbs": [
+                {
+                    "phrasal_verb": "deal with",
+                    "source": "dealing with a \"cyber incident\"",
+                    "explanation": "to handle or manage a situation or problem"
+                },
+                {
+                    "phrasal_verb": "make small changes",
+                    "source": "forced to temporarily make \"small changes\" to store operations",
+                    "explanation": "to implement minor modifications or adjustments"
+                },
+                {
+                    "phrasal_verb": "take action",
+                    "source": "no need for you to take any action",
+                    "explanation": "to do something in order to achieve a result or deal with a situation"
+                },
+                {
+                    "phrasal_verb": "let you know",
+                    "source": "if the situation changes, we will let you know",
+                    "explanation": "to inform or notify someone"
+                },
+                {
+                    "phrasal_verb": "assisting with",
+                    "source": "engaged external cyber security experts to assist with investigating and managing the incident",
+                    "explanation": "to help or support in doing something"
+                },
+                {
+                    "phrasal_verb": "protect our network",
+                    "source": "taking actions to further protect our network",
+                    "explanation": "to secure or guard against damage or attack"
+                },
+                {
+                    "phrasal_verb": "continue to maintain",
+                    "source": "ensure we can continue to maintain customer service",
+                    "explanation": "to keep or sustain at the current level"
+                },
+                {
+                    "phrasal_verb": "resolve some delays",
+                    "source": "working to resolve some \"limited\" delays to Click and Collect orders",
+                    "explanation": "to find a solution and end a problem or difficulty"
+                },
+                {
+                    "phrasal_verb": "using a gift card",
+                    "source": "unable to pay for clothes using a gift card",
+                    "explanation": "to make a payment or complete a transaction via using a gift card"
+                },
+                {
+                    "phrasal_verb": "affected by issues",
+                    "source": "technical difficulties affecting its ability to process gift cards",
+                    "explanation": "to be influenced or impacted by problems or difficulties"
+                },
+                {
+                    "phrasal_verb": "hit major high street names",
+                    "source": "series of IT problems to hit major high street names",
+                    "explanation": "to experience or affect in a negative way"
+                },
+                {
+                    "phrasal_verb": "disclosed the firm",
+                    "source": "It was later disclosed the firm could face compensation payments",
+                    "explanation": "to reveal or make known publicly"
+                },
+                {
+                    "phrasal_verb": "faced outages",
+                    "source": "Lloyds – faced outages, leaving businesses unable to pay staff",
+                    "explanation": "to experience or encounter a problem or failure"
+                },
+                {
+                    "phrasal_verb": "take a day off",
+                    "source": "cyber attackers never take a day off",
+                    "explanation": "to stop working or be absent temporarily"
+                },
+                {
+                    "phrasal_verb": "look out to cause",
+                    "source": "criminals are always on the look out to cause the most disruption",
+                    "explanation": "to be vigilant or watchful for something, especially a threat or opportunity"
+                }
+            ],
+            "tenses": [
+                {
+                    "verb_phrase": "has been dealing",
+                    "tense": "present perfect continuous",
+                    "sentence": "Marks and Spencer (M&S) says it has been dealing with a \"cyber incident\" affecting some of its services over the last few days.",
+                    "explanation": "This tense is used to describe an action that started in the past and is still ongoing or recent, relevant for ongoing dealing with the incident."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "The UK retailer said its Click and Collect service had been impacted by technical issues along with its ability to collect contactless payments - with many customers taking to social media to complain about delays.",
+                    "explanation": "Past simple indicates completed action in the past, reporting what the retailer stated."
+                },
+                {
+                    "verb_phrase": "had been impacted",
+                    "tense": "past perfect passive",
+                    "sentence": "The UK retailer said its Click and Collect service had been impacted by technical issues along with its ability to collect contactless payments - with many customers taking to social media to complain about delays.",
+                    "explanation": "Past perfect passive describes the state of the service being affected before the statement about it."
+                },
+                {
+                    "verb_phrase": "apologised",
+                    "tense": "past simple",
+                    "sentence": "M&S chief executive Stuart Machin apologised to customers in a note on Tuesday.",
+                    "explanation": "Past simple here indicates a completed action in the past."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "He said the company had been forced to temporarily make \"small changes\" to store operations \"to protect you and our business\".",
+                    "explanation": "Past simple reporting speech; the past perfect within the speech indicates a completed action before the saying."
+                },
+                {
+                    "verb_phrase": "is",
+                    "tense": "present simple",
+                    "sentence": "\"There is no need for you to take any action at this time and if the situation changes, we will let you know,\" he said.",
+                    "explanation": "Present simple for states of being or facts that are true now."
+                },
+                {
+                    "verb_phrase": "has been notified",
+                    "tense": "present perfect passive",
+                    "sentence": "The Information Commissioner's Office (ICO), the UK's data watchdog, has been notified.",
+                    "explanation": "Present perfect passive to describe that the notification occurred at an unspecified time before now and is relevant."
+                },
+                {
+                    "verb_phrase": "has made",
+                    "tense": "present perfect",
+                    "sentence": "\"Marks & Spencer plc has made us aware of an incident and we are assessing the information provided,\" an ICO spokesperson told the BBC.",
+                    "explanation": "Present perfect indicates an action completed in the recent past with relevance now."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "Daniel Card of the Chartered Institute for IT (BCS) said the M&S incident was \"a reminder of the gap that often exists between our perception of cyber resilience and the reality\".",
+                    "explanation": "Past simple for reporting what someone said."
+                },
+                {
+                    "verb_phrase": "can be addressed",
+                    "tense": "present simple passive",
+                    "sentence": "\"Many common vulnerabilities \"can be addressed through practical, proportionate steps\".",
+                    "explanation": "Present simple passive to show that vulnerabilities are able to be addressed."
+                },
+                {
+                    "verb_phrase": "hit",
+                    "tense": "past simple",
+                    "sentence": "This is just the latest in a series of IT problems to hit major high street names.",
+                    "explanation": "Past simple describing a completed action in the past."
+                },
+                {
+                    "verb_phrase": "experienced",
+                    "tense": "past simple",
+                    "sentence": "Morrisons experienced significant problems with their Christmas orders last year.",
+                    "explanation": "Past simple indicating a completed experience."
+                },
+                {
+                    "verb_phrase": "was followed",
+                    "tense": "past simple passive",
+                    "sentence": "This was followed by two major outages on what was pay day for many in the first two months of this year.",
+                    "explanation": "Past simple passive indicating an event that happened after the previous."
+                },
+                {
+                    "verb_phrase": "disclosed",
+                    "tense": "past simple",
+                    "sentence": "And in January, serious IT problems at Barclays affected the bank's app and online banking. It was later disclosed the firm could face compensation payments of £12.5m.",
+                    "explanation": "Past simple for an action completed in the past."
+                },
+                {
+                    "verb_phrase": "faced",
+                    "tense": "past simple",
+                    "sentence": "In February, several banks – notably Lloyds – faced outages, leaving businesses unable to pay staff.",
+                    "explanation": "Past simple describing an occurrence in the past."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "Ian McShane, a security expert at cyber security company Arctic Wolf, said the issues experienced by M&S over Easter showed that \"cyber attackers never take a day off\".",
+                    "explanation": "Past simple reporting what someone said."
+                },
+                {
+                    "verb_phrase": "are",
+                    "tense": "present simple",
+                    "sentence": "\"Criminals are always on the look out to cause the most disruption for the least amount of effort,\" he added.",
+                    "explanation": "Present simple to describe a general truth or habitual action."
+                },
+                {
+                    "verb_phrase": "take",
+                    "tense": "present simple",
+                    "sentence": "\"cyber attackers never take a day off\".",
+                    "explanation": "Present simple indicating a habitual or general truth."
+                }
+            ],
+            "facts": [
+                {
+                    "statement": "M&S's Click and Collect service was affected by technical issues.",
+                    "answer": "True",
+                    "evidence": "The UK retailer said its Click and Collect service had been impacted by technical issues along with its ability to collect contactless payments",
+                    "explanation": "The text explicitly states that M&S's Click and Collect service had been impacted by technical issues."
+                },
+                {
+                    "statement": "The cyber incident at M&S was a ransomware attack.",
+                    "answer": "Not Given",
+                    "evidence": null,
+                    "explanation": "The text mentions a 'cyber incident' but does not specify the type of attack, such as ransomware."
+                },
+                {
+                    "statement": "M&S apologized to customers for the delays caused by the cyber incident.",
+                    "answer": "True",
+                    "evidence": "M&S chief executive Stuart Machin apologised to customers in a note on Tuesday.",
+                    "explanation": "The text states that the CEO apologized to customers, indicating acknowledgment of delays or issues."
+                },
+                {
+                    "statement": "The ICO has not been informed about the M&S incident.",
+                    "answer": "False",
+                    "evidence": "The Information Commissioner's Office (ICO), the UK's data watchdog, has been notified.",
+                    "explanation": "The text clearly states that the ICO was notified about the incident."
+                },
+                {
+                    "statement": "M&S has engaged cybersecurity experts to investigate the incident.",
+                    "answer": "True",
+                    "evidence": "In a notice to investors, M&S said it had engaged 'external cyber security experts to assist with investigating and managing the incident'.",
+                    "explanation": "The text explicitly mentions M&S's engagement of cybersecurity experts."
+                },
+                {
+                    "statement": "The cyber incident caused permanent closure of some M&S stores.",
+                    "answer": "Not Given",
+                    "evidence": null,
+                    "explanation": "There is no information in the text regarding permanent store closures."
+                },
+                {
+                    "statement": "Customers experienced issues with using gift cards in M&S stores due to the cyber incident.",
+                    "answer": "True",
+                    "evidence": "One person called the issues a 'total failure for customers' in a post on X. Another said they were unable to pay for clothes using a gift card while shopping at an M&S store.",
+                    "explanation": "The text describes customer complaints about gift card issues during the incident."
+                },
+                {
+                    "statement": "The cybersecurity expert Daniel Card believes that only large organizations are vulnerable to cyber attacks.",
+                    "answer": "False",
+                    "evidence": "He said while this may feel daunting for some smaller organizations, many common vulnerabilities can be addressed through practical, proportionate steps.",
+                    "explanation": "The expert suggests that smaller organizations can also implement measures to protect against vulnerabilities, implying they are also vulnerable if unprotected."
+                },
+                {
+                    "statement": "M&S's IT issues over Easter were caused by external cyber attackers.",
+                    "answer": "Not Given",
+                    "evidence": null,
+                    "explanation": "The text mentions the incident was a 'cyber incident,' but does not specify whether it was caused by external attackers or internal issues."
+                },
+                {
+                    "statement": "The long weekend was an important period for food and drink retailers like M&S.",
+                    "answer": "True",
+                    "evidence": "Criminals are always on the look out to cause the most disruption for the least amount of effort, given the long weekend is the second biggest trading event for food and drink retailers after Christmas.",
+                    "explanation": "The text states that the long weekend is the second biggest trading event for such retailers."
+                }
+            ]
         },
         {
-            "word": "technology",
-            "source": "text",
-            "explenation": "the application of scientific knowledge for practical purposes",
-            "type": "noun"
-        },
-        {
-            "word": "security",
-            "source": "text",
-            "explenation": "the state of being free from danger or threat",
-            "type": "noun"
-        },
-        {
-            "word": "project",
-            "source": "text",
-            "explenation": "a planned piece of work to achieve a particular aim",
-            "type": "noun"
-        },
-        {
-            "word": "mission",
-            "source": "text",
-            "explenation": "an important assignment or duty",
-            "type": "noun"
-        },
-        {
-            "word": "resilience",
-            "source": "text",
-            "explenation": "the capacity to recover quickly from difficulties or setbacks",
-            "type": "noun"
-        },
-        {
-            "word": "launch",
-            "source": "text",
-            "explenation": "to send or propel into motion or into the air or space",
-            "type": "verb"
-        },
-        {
-            "word": "autonomy",
-            "source": "text",
-            "explenation": "the right or condition of self-government; independence",
-            "type": "noun"
-        }
-    ],
-    "phrasal_verbs": [
-        {
-            "phrasal_verb": "signs biggest ever contract",
-            "source": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
-            "explanation": "to agree formally to undertake a contract"
-        },
-        {
-            "phrasal_verb": "signed a €52 million contract",
-            "source": "Polish firm signs biggest ever contract with European Space Agency to launch satellite constellation",
-            "explanation": "to formally agree and complete the signature of a contract"
-        },
-        {
-            "phrasal_verb": "build and launch",
-            "source": "to build and launch a constellation of Earth observation satellites",
-            "explanation": "to develop and send into space"
-        },
-        {
-            "phrasal_verb": "held during",
-            "source": "which was held during the ESA Security Conference in Warsaw",
-            "explanation": "to take place during a specific time or event"
-        },
-        {
-            "phrasal_verb": "gain knowledge and experience",
-            "source": "an opportunity to gain knowledge and experience",
-            "explanation": "to acquire or obtain knowledge and skills"
-        },
-        {
-            "phrasal_verb": "support effective crisis management",
-            "source": "support “effective crisis management, the safety of residents and infrastructure",
-            "explanation": "to aid or assist in managing crises effectively"
-        },
-        {
-            "phrasal_verb": "initially commissioned",
-            "source": "which initially commissioned the project",
-            "explanation": "to have appointed or assigned a task or project at an early stage"
-        },
-        {
-            "phrasal_verb": "spent on",
-            "source": "€25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors",
-            "explanation": "to use money for a particular purpose"
-        },
-        {
-            "phrasal_verb": "involved in",
-            "source": "several hundred people across Poland will be involved in the project",
-            "explanation": "to participate or take part in a project or activity"
-        },
-        {
-            "phrasal_verb": "contribute to",
-            "source": "the knowledge and experience gained will directly contribute to increasing the competitiveness",
-            "explanation": "to help bring about or add to a result"
-        },
-        {
-            "phrasal_verb": "marked a strategic step",
-            "source": "the project marks “a strategic step towards increasing Poland’s autonomy",
-            "explanation": "to take an action indicating progress or a significant development"
-        },
-        {
-            "phrasal_verb": "set to launch",
-            "source": "Later this year, Poland is set to launch its first mission",
-            "explanation": "to be prepared or scheduled to begin an operation"
-        },
-        {
-            "phrasal_verb": "run by",
-            "source": "Notes from Poland is run by a small editorial team",
-            "explanation": "to operate or manage"
-        }
-    ],
-    "tenses": [
-        {
-            "verb_phrase": "has signed",
-            "tense": "present perfect",
-            "alternative": "past simple",
-            "sentence": "Poland’s Creotech Instruments has signed a €52 million (223 million zloty) contract with the European Space Agency (ESA) to build and launch a constellation of Earth observation satellites.",
-            "explanation": "This present perfect tense indicates an action that was completed at an unspecified time before now, emphasizing the relevance of the signing to the current context."
-        },
-        {
-            "verb_phrase": "was held",
-            "tense": "past simple passive",
-            "alternative": "present perfect passive",
-            "sentence": "This signing ceremony, which was held during the ESA Security Conference in Warsaw.",
-            "explanation": "Past simple passive shows that the ceremony took place at a specific time in the past."
-        },
-        {
-            "verb_phrase": "added",
-            "tense": "past simple",
-            "alternative": "present perfect",
-            "sentence": "added the development and technology ministry.",
-            "explanation": "Past simple is used here because the action of adding occurred at a specific point in the past."
-        },
-        {
-            "verb_phrase": "says",
-            "tense": "present simple",
-            "alternative": "present continuous",
-            "sentence": "Creotech, which is the largest Polish space firm listed on the Warsaw Stock Exchange, says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical – along with associated ground infrastructure for control and data processing.",
-            "explanation": "Present simple here indicates a general statement or fact about Creotech's current position and claims."
-        },
-        {
-            "verb_phrase": "will contain",
-            "tense": "future simple",
-            "alternative": "present continuous",
-            "sentence": "says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical – along with associated ground infrastructure for control and data processing.",
-            "explanation": "Future simple tense expresses an intention or expectation regarding what the constellation will include in the future."
-        },
-        {
-            "verb_phrase": "will provide",
-            "tense": "future simple",
-            "alternative": "present simple",
-            "sentence": "The project will provide data to support “effective crisis management, the safety of residents and infrastructure, and protection of the natural environment” in Poland.",
-            "explanation": "Future simple indicates a future action that the project is expected to undertake."
-        },
-        {
-            "verb_phrase": "initially commissioned",
-            "tense": "past simple passive",
-            "alternative": "present perfect passive",
-            "sentence": "which initially commissioned the project before selecting the ESA to implement and manage the tender.",
-            "explanation": "Past simple passive shows that the project was commissioned at a specific time in the past by an unspecified agent."
-        },
-        {
-            "verb_phrase": "will go",
-            "tense": "future simple",
-            "alternative": "present continuous",
-            "sentence": "Out of the €52 million for the project – which is titled Country Awareness Mission in Land Analysis (CAMILA) – €25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors.",
-            "explanation": "Future simple tense indicating a planned allocation of funds in the future."
-        },
-        {
-            "verb_phrase": "says",
-            "tense": "present simple",
-            "alternative": "past simple",
-            "sentence": "Creotech says that several hundred people across Poland will be involved in the project, and that “the knowledge and experience gained will directly contribute to increasing the competitiveness of the Polish space sector and its share in European markets”.",
-            "explanation": "Present simple indicates a current statement of fact or belief."
-        },
-        {
-            "verb_phrase": "added",
-            "tense": "past simple",
-            "alternative": "present perfect",
-            "sentence": "added the company, quoted by the Polish Press Agency (PAP).",
-            "explanation": "Past simple indicates a completed action in the past."
-        },
-        {
-            "verb_phrase": "said",
-            "tense": "past simple",
-            "alternative": "present perfect",
-            "sentence": "Deputy development minister Michał Baranowski said that the project marks “a strategic step towards increasing Poland’s autonomy, strengthening our resilience and building capabilities in advanced Earth observation – for civil, economic and security needs”.",
-            "explanation": "Past simple used for reporting direct speech or statements made at a specific past time."
-        },
-        {
-            "verb_phrase": "will become",
-            "tense": "future simple",
-            "alternative": "present continuous",
-            "sentence": "who will become the second Pole in history to travel to space and the first to stay aboard the ISS.",
-            "explanation": "Future simple indicates an event expected to happen in the future."
-        }
-    ],
-    "facts": [
-        {
-            "statement": "Poland’s Creotech Instruments signed a contract with the European Space Agency to build and launch a satellite constellation.",
-            "answer": "True",
-            "evidence": "Poland’s Creotech Instruments has signed a €52 million (223 million zloty) contract with the European Space Agency (ESA) to build and launch a constellation of Earth observation satellites.",
-            "explanation": "The text clearly states that Creotech Instruments signed a contract with ESA to build and launch a satellite constellation."
-        },
-        {
-            "statement": "The contract signed between Creotech Instruments and ESA is the biggest ever contract in history between Poland and ESA.",
-            "answer": "False",
-            "evidence": "‘This is the biggest contract in history signed between the ESA and a Polish entity,’ said finance minister Andrzej Domański.",
-            "explanation": "The statement claims the contract is the biggest ever between Poland and ESA, which is supported by the text. Therefore, the statement is True, but the question mentions 'in history' broadly. The statement is correct based on the text, so I will correct the previous label."
-        },
-        {
-            "statement": "The satellite constellation will include at least three satellites with different optical capabilities.",
-            "answer": "True",
-            "evidence": "Creotech, which is the largest Polish space firm listed on the Warsaw Stock Exchange, says that the constellation will contain at least three satellites – one radar, one high-resolution optical and one lower-resolution optical.",
-            "explanation": "The text specifically mentions three satellites with different optical capabilities, confirming the statement."
-        },
-        {
-            "statement": "The project aims to support nuclear energy development in Poland.",
-            "answer": "Not Given",
-            "evidence": "The project will provide data to support 'effective crisis management, the safety of residents and infrastructure, and protection of the natural environment' in Poland.",
-            "explanation": "The text discusses environmental protection and crisis management but does not mention nuclear energy development."
-        },
-        {
-            "statement": "Out of the €52 million, over €30 million will be spent on subcontractors, including Polish companies.",
-            "answer": "False",
-            "evidence": "Out of the €52 million for the project – which is titled Country Awareness Mission in Land Analysis (CAMILA) – €25.6 million will go to Creotech itself with the rest spent on work executed by subcontractors.",
-            "explanation": "Only €25.6 million will go to Creotech; the remainder will be spent on subcontractors, totaling approximately €26.4 million—less than €30 million."
-        },
-        {
-            "statement": "Creotech conducted a successful space mission called EagleEye in 2024, which reached orbit.",
-            "answer": "True",
-            "evidence": "According to the company, 'a significant part' of the system has already been tested in space during a trial EagleEye mission conducted in 2024 by Creotech. It was then that the largest and most technologically advanced Polish satellite to date successfully reached orbit.",
-            "explanation": "The text states that the EagleEye mission was conducted in 2024, and the satellite reached orbit, supporting the statement."
-        },
-        {
-            "statement": "Polish astronaut Sławosz Uznański-Wiśniewski will be the first Pole to travel to space.",
-            "answer": "Not Given",
-            "evidence": "Later this year, Poland is set to launch its first mission to the International Space Station (ISS), headed by Polish astronaut Sławosz Uznański-Wiśniewski, who will become the second Pole in history to travel to space and the first to stay aboard the ISS.",
-            "explanation": "The text specifies that he will be the second Pole in history to travel to space, so he will not be the first."
+            "source": {
+                "url": "https://www.bbc.com/news/articles/cewg8xdld7jo",
+                "title": "AI technology for egg farms gets £2.6m funding boost",
+                "website": "22 April 2025"
+            },
+            "words": [
+                {
+                    "word": "efficiency",
+                    "source": "AI tech for egg farms",
+                    "explenation": "The ability to do something well without waste.",
+                    "type": "noun"
+                },
+                {
+                    "word": "funding",
+                    "source": "AI tech for egg farms",
+                    "explenation": "Money provided for a particular purpose.",
+                    "type": "noun"
+                },
+                {
+                    "word": "technology",
+                    "source": "AI tech for egg farms",
+                    "explenation": "Application of scientific knowledge for practical use.",
+                    "type": "noun"
+                },
+                {
+                    "word": "monitor",
+                    "source": "BirdBox system is used to check the hens' environment",
+                    "explenation": "To regularly look after and observe.",
+                    "type": "verb"
+                },
+                {
+                    "word": "welfare",
+                    "source": "improve animal welfare",
+                    "explenation": "The health, happiness, and safety of a person or animal.",
+                    "type": "noun"
+                },
+                {
+                    "word": "environment",
+                    "source": "check the hens' environment",
+                    "explenation": "The surroundings or conditions in which a person or thing lives.",
+                    "type": "noun"
+                },
+                {
+                    "word": "results",
+                    "source": "results can be achieved through technology",
+                    "explenation": "The outcome or effect of an action or process.",
+                    "type": "noun"
+                },
+                {
+                    "word": "majority",
+                    "source": "a 1.7 billion more eggs laid a year",
+                    "explenation": "More than half of a total number.",
+                    "type": "noun"
+                },
+                {
+                    "word": "profits",
+                    "source": "boosting profits for farmers",
+                    "explenation": "Money gained after deducting expenses.",
+                    "type": "noun"
+                },
+                {
+                    "word": "support",
+                    "source": "Government support for cutting-edge technology",
+                    "explenation": "Assistance or backing for a person or cause.",
+                    "type": "noun"
+                }
+            ],
+            "phrasal_verbs": [
+                {
+                    "phrasal_verb": "get from",
+                    "source": "AI tech for egg farms gets £2.6m from government",
+                    "explanation": "to obtain or receive something from a particular source"
+                },
+                {
+                    "phrasal_verb": "aimed to improve",
+                    "source": "AI technology aimed to improve efficiency on egg farms",
+                    "explanation": "to have as a goal or purpose"
+                },
+                {
+                    "phrasal_verb": "has been awarded",
+                    "source": "has been awarded £2.6m in government funding",
+                    "explanation": "to be given a prize, award, or recognition"
+                },
+                {
+                    "phrasal_verb": "gathered from",
+                    "source": "The AI analyses a range of data gathered from sensors",
+                    "explanation": "to collect or accumulate from a source"
+                },
+                {
+                    "phrasal_verb": "listening to",
+                    "source": "listening to the sound the hens make",
+                    "explanation": "to pay attention to or hear"
+                },
+                {
+                    "phrasal_verb": "identify any potential problems",
+                    "source": "to identify any potential problems",
+                    "explanation": "to recognize or find out"
+                },
+                {
+                    "phrasal_verb": "has been developed by",
+                    "source": "The Facilitating Learning Opportunities... has been developed by Oxford-based FAI Farms",
+                    "explanation": "to create or produce"
+                },
+                {
+                    "phrasal_verb": "hopes the trial will improve",
+                    "source": "Defra hopes the three-year trial will improve animal welfare",
+                    "explanation": "to wish or desire for something to happen"
+                },
+                {
+                    "phrasal_verb": "reduce egg prices for",
+                    "source": "reduce egg prices for British shoppers",
+                    "explanation": "to make something less in amount, size, or degree"
+                },
+                {
+                    "phrasal_verb": "claim the system can identify",
+                    "source": "FAI Farms claims the system can identify the sounds birds make",
+                    "explanation": "to assert or state as a fact"
+                },
+                {
+                    "phrasal_verb": "alert the farmer",
+                    "source": "and alert the farmer",
+                    "explanation": "to notify or warn"
+                },
+                {
+                    "phrasal_verb": "used to check the hens' environment",
+                    "source": "Their BirdBox system is already used to check the hens' environment",
+                    "explanation": "to utilize for a purpose"
+                },
+                {
+                    "phrasal_verb": "monitor equipment",
+                    "source": "monitor equipment",
+                    "explanation": "to observe or keep an eye on"
+                },
+                {
+                    "phrasal_verb": "record feed data",
+                    "source": "record feed data",
+                    "explanation": "to capture or log data for future reference"
+                },
+                {
+                    "phrasal_verb": "gather information about",
+                    "source": "gather information about the quality of the eggs",
+                    "explanation": "to collect or assemble information"
+                },
+                {
+                    "phrasal_verb": "would help hens to live longer and healthier lives",
+                    "source": "Defra said the technology would help hens 'live longer and healthier lives'",
+                    "explanation": "to assist or support continuous or improving health or lifespan"
+                },
+                {
+                    "phrasal_verb": "roll out nationwide",
+                    "source": "If rolled out nationwide",
+                    "explanation": "to introduce or implement on a large scale"
+                },
+                {
+                    "phrasal_verb": "make for up to 1.7 billion more eggs laid a year",
+                    "source": "make for up to 1.7 billion more eggs laid a year",
+                    "explanation": "to lead to a certain result or outcome"
+                },
+                {
+                    "phrasal_verb": "hope the project could make for an increase to UK farmers' income",
+                    "source": "Defra hopes the project could... make for an increase to UK farmers' income",
+                    "explanation": "to result in or lead to"
+                },
+                {
+                    "phrasal_verb": "support for cutting-edge technology is making a difference",
+                    "source": "Government support for cutting-edge technology is making a real-world difference",
+                    "explanation": "to cause a change or effect"
+                },
+                {
+                    "phrasal_verb": "pass these productivity gains on to consumers",
+                    "source": "Farmers could even pass these productivity gains on to consumers",
+                    "explanation": "to transfer or give to others"
+                },
+                {
+                    "phrasal_verb": "put more money in people's pockets",
+                    "source": "ultimately putting more money in people's pockets",
+                    "explanation": "to generate or increase income or wealth"
+                },
+                {
+                    "phrasal_verb": "remains proudly homegrown",
+                    "source": "it's ensuring our morning fry-ups remain proudly homegrown",
+                    "explanation": "to stay or be kept as part of a local or familiar tradition"
+                },
+                {
+                    "phrasal_verb": "call a cracking use of technology",
+                    "source": "Now that's what I call a cracking use of technology",
+                    "explanation": "to describe or refer to something"
+                }
+            ],
+            "tenses": [
+                {
+                    "verb_phrase": "aimed to improve",
+                    "tense": "past simple",
+                    "sentence": "AI technology aimed to improve efficiency on egg farms has been awarded £2.6m in government funding.",
+                    "explanation": "This clause uses the past simple tense 'aimed' which indicates a completed action or intention in the past."
+                },
+                {
+                    "verb_phrase": "has been awarded",
+                    "tense": "present perfect",
+                    "sentence": "AI technology aimed to improve efficiency on egg farms has been awarded £2.6m in government funding.",
+                    "explanation": "The present perfect 'has been awarded' indicates a completed action with relevance to the present, emphasizing the recent occurrence of the award."
+                },
+                {
+                    "verb_phrase": "analyzes",
+                    "tense": "present simple",
+                    "sentence": "The AI analyses a range of data gathered from sensors on a farm, including listening to the sound the hens make, to identify any potential problems.",
+                    "explanation": "The present simple 'analyzes' indicates a general truth or a habitual action relating to the AI's function."
+                },
+                {
+                    "verb_phrase": "has been developed",
+                    "tense": "present perfect passive",
+                    "sentence": "The Facilitating Learning Opportunities, Cultivating Knowledge and Welfare through Integrated Sensing and Expertise (Flockwise) system has been developed by Oxford-based FAI Farms, alongside Cumbria's The Lakes Free Range Egg Company and Newcastle University.",
+                    "explanation": "The present perfect passive 'has been developed' emphasizes that the development occurred at an unspecified time before now, with relevance to the present."
+                },
+                {
+                    "verb_phrase": "hopes",
+                    "tense": "present simple",
+                    "sentence": "The Department for Environment, Food & Rural Affairs (Defra) hopes the three-year trial will improve animal welfare and eventually reduce egg prices for British shoppers.",
+                    "explanation": "The present simple 'hopes' shows a current belief or expectation about the future outcome."
+                },
+                {
+                    "verb_phrase": "can identify",
+                    "tense": "present simple",
+                    "sentence": "FAI Farms claims the system can identify the sounds birds make when stressed or unwell and alert the farmer.",
+                    "explanation": "The modal 'can' + base verb 'identify' indicates ability or possibility in the present."
+                },
+                {
+                    "verb_phrase": "is already used",
+                    "tense": "present simple passive",
+                    "sentence": "Their BirdBox system is already used to check the hens' environment, monitor equipment, record feed data and gather information about the quality of the eggs.",
+                    "explanation": "The present simple passive 'is used' indicates a habitual or established use."
+                },
+                {
+                    "verb_phrase": "would help",
+                    "tense": "future-in-the-past with modal",
+                    "sentence": "Defra said the technology would help hens \"live longer and healthier lives and is good for the environment too, because longer-lived fowl have a smaller carbon footprint\".",
+                    "explanation": "The modal 'would' indicates a conditional or anticipated future event from a past perspective."
+                },
+                {
+                    "verb_phrase": "hopes",
+                    "tense": "present simple",
+                    "sentence": "If rolled out nationwide, Defra hopes the project could \"make for up to 1.7 billion more eggs laid a year, and a £280 million increase to UK farmers' income\".",
+                    "explanation": "The present simple 'hopes' indicates a current belief about the possibility."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "In a statement, Secretary of State for Environment, Food and Rural Affairs Steve Reed said: \"Government support for cutting-edge technology is making a real-world difference to British farmers and boosting their profits.",
+                    "explanation": "The past simple 'said' reports a completed action — reporting a statement."
+                },
+                {
+                    "verb_phrase": "is making",
+                    "tense": "present continuous",
+                    "sentence": "Government support for cutting-edge technology is making a real-world difference to British farmers and boosting their profits.",
+                    "explanation": "The present continuous 'is making' indicates an ongoing action happening at the moment of speaking."
+                },
+                {
+                    "verb_phrase": "could even pass",
+                    "tense": "modal + base verb",
+                    "sentence": "Farmers could even pass these productivity gains on to consumers, by charging lower prices for their eggs, ultimately putting more money in people's pockets.",
+                    "explanation": "The modal 'could' plus base verb 'pass' indicates possibility or potential capability."
+                },
+                {
+                    "verb_phrase": "said",
+                    "tense": "past simple",
+                    "sentence": "Science and Technology Secretary Peter Kyle said: \"Not only is this work putting British farming at the cutting edge—it's ensuring our morning fry-ups remain proudly homegrown.",
+                    "explanation": "The past simple 'said' reports a completed action of speech."
+                },
+                {
+                    "verb_phrase": "is putting",
+                    "tense": "present continuous",
+                    "sentence": "\"Not only is this work putting British farming at the cutting edge—it's ensuring our morning fry-ups remain proudly homegrown.",
+                    "explanation": "The present continuous 'is putting' indicates ongoing action occurring at the moment."
+                },
+                {
+                    "verb_phrase": "is ensuring",
+                    "tense": "present continuous",
+                    "sentence": "\"Not only is this work putting British farming at the cutting edge—it's ensuring our morning fry-ups remain proudly homegrown.",
+                    "explanation": "The present continuous 'is ensuring' indicates an ongoing process or action."
+                }
+            ],
+            "facts": [
+                {
+                    "statement": "The AI technology for egg farms received government funding.",
+                    "answer": "True",
+                    "evidence": "AI technology aimed to improve efficiency on egg farms has been awarded £2.6m in government funding.",
+                    "explanation": "The text clearly states that AI technology has been awarded government funding."
+                },
+                {
+                    "statement": "The Flockwise system analyses data including hen sounds to detect problems.",
+                    "answer": "True",
+                    "evidence": "The AI analyses a range of data gathered from sensors on a farm, including listening to the sound the hens make, to identify any potential problems.",
+                    "explanation": "The text specifies that the system analyses hen sounds as part of its data collection."
+                },
+                {
+                    "statement": "The Flockwise system was developed solely by Oxford-based FAI Farms.",
+                    "answer": "False",
+                    "evidence": "The Facilitating Learning Opportunities, Cultivating Knowledge and Welfare through Integrated Sensing and Expertise (Flockwise) system has been developed by Oxford-based FAI Farms, alongside Cumbria's The Lakes Free Range Egg Company and Newcastle University.",
+                    "explanation": "The text lists multiple collaborators, not just FAI Farms."
+                },
+                {
+                    "statement": "Defra hopes that the trial will improve animal welfare and reduce egg prices.",
+                    "answer": "True",
+                    "evidence": "The Department for Environment, Food & Rural Affairs (Defra) hopes the three-year trial will improve animal welfare and eventually reduce egg prices for British shoppers.",
+                    "explanation": "The text explicitly states Defra's hopes for both improved welfare and lower prices."
+                },
+                {
+                    "statement": "FAI Farms claims their system can identify when hens are stressed or unwell.",
+                    "answer": "True",
+                    "evidence": "FAI Farms claims the system can identify the sounds birds make when stressed or unwell and alert the farmer.",
+                    "explanation": "The text supports FAI Farms' claim about stress and health identification."
+                },
+                {
+                    "statement": "The BirdBox system is used only to monitor the hens' environment.",
+                    "answer": "False",
+                    "evidence": "Their BirdBox system is already used to check the hens' environment, monitor equipment, record feed data and gather information about the quality of the eggs.",
+                    "explanation": "The system has multiple functions, not just environmental monitoring."
+                },
+                {
+                    "statement": "Defra believes the technology will help hens live longer and be better for the environment.",
+                    "answer": "True",
+                    "evidence": "Defra said the technology would help hens 'live longer and healthier lives and is good for the environment too, because longer-lived fowl have a smaller carbon footprint'.",
+                    "explanation": "The statement is directly supported by the text."
+                },
+                {
+                    "statement": "If implemented nationwide, the project could produce up to 1.7 billion additional eggs annually.",
+                    "answer": "True",
+                    "evidence": "If rolled out nationwide, Defra hopes the project could 'make for up to 1.7 billion more eggs laid a year, and a £280 million increase to UK farmers' income'.",
+                    "explanation": "The potential number of additional eggs is explicitly mentioned."
+                },
+                {
+                    "statement": "Steve Reed said government support is helping British farmers and increasing their profits.",
+                    "answer": "True",
+                    "evidence": "In a statement, Secretary of State for Environment, Food and Rural Affairs Steve Reed said: 'Government support for cutting-edge technology is making a real-world difference to British farmers and boosting their profits.'",
+                    "explanation": "The quote clearly indicates support aiding profits."
+                },
+                {
+                    "statement": "Peter Kyle emphasized the importance of British farming staying at the technological forefront.",
+                    "answer": "Not Given",
+                    "evidence": "Science and Technology Secretary Peter Kyle said: 'Not only is this work putting British farming at the cutting edge...'",
+                    "explanation": "While the quote highlights technology's role, it does not explicitly state it's about staying at the forefront, so the emphasis is on 'putting British farming at the cutting edge' which could be interpreted as support, but it's not explicitly about 'staying at the forefront' in the text provided."
+                }
+            ]
         }
     ]
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import { randomInt } from 'crypto';
 import React, { useState } from 'react';
 
 interface TensesExerciseProps {
@@ -18,7 +19,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
   const handleTenseAnswer = (tense: string) => {
     setSelectedTense(tense);
     setShowTenseExplanation(true);
-    
+
     const currentTense = tenses[currentTenseIndex];
     if (tense === currentTense.tense) {
       setTensesUserScore(prev => prev + 1);
@@ -63,10 +64,10 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
             <span>Question {currentTenseIndex + 1} of {tenses.length}</span>
             <span>{progressPercentage}% complete</span>
           </div>
-          
+
           {/* Progress bar */}
           <div className="w-full bg-[#1E1E1E] rounded-full h-1.5">
-            <div 
+            <div
               className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300 ease-in-out"
               style={{ width: `${progressPercentage}%` }}
             ></div>
@@ -109,11 +110,11 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
 
                   <div className="bg-white/5 rounded-lg p-4">
                     <p className="text-gray-300">
-                      {tensesUserScore === tenses.length ? 
-                        "Perfect score! You've mastered the tenses used in this article." : 
+                      {tensesUserScore === tenses.length ?
+                        "Perfect score! You've mastered the tenses used in this article." :
                         tensesUserScore >= Math.floor(tenses.length * 0.7) ?
-                        "Great job! You have a good understanding of the tenses used in the article." :
-                        "Keep practicing! Understanding tenses is a skill that improves with practice."}
+                          "Great job! You have a good understanding of the tenses used in the article." :
+                          "Keep practicing! Understanding tenses is a skill that improves with practice."}
                     </p>
                   </div>
                 </div>
@@ -121,7 +122,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
             </div>
 
             <div className="grid grid-cols-1 gap-4">
-              <button 
+              <button
                 onClick={() => navigateToSection('facts-intro')}
                 className="bg-indigo-600 text-white p-4 rounded-xl flex justify-between items-center"
               >
@@ -141,7 +142,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                 </svg>
               </button>
 
-              <button 
+              <button
                 onClick={restartTensesExercise}
                 className="bg-[#121212] text-white p-4 rounded-xl flex justify-between items-center"
               >
@@ -166,30 +167,39 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
           <>
             <div className="bg-[#121212] rounded-xl p-5">
               <div className="text-white mb-5 text-lg">{tenses[currentTenseIndex].sentence}</div>
-              
+
               {!showTenseExplanation ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
-                  <button 
-                    onClick={() => handleTenseAnswer(tenses[currentTenseIndex].tense)}
-                    className="px-4 py-3 text-sm font-medium rounded-xl border border-white/10 bg-white/5 hover:bg-indigo-600/30 hover:border-indigo-600/50 transition"
-                  >
-                    {tenses[currentTenseIndex].tense}
-                  </button>
-                  <button 
-                    onClick={() => handleTenseAnswer(tenses[currentTenseIndex].alternative)}
-                    className="px-4 py-3 text-sm font-medium rounded-xl border border-white/10 bg-white/5 hover:bg-indigo-600/30 hover:border-indigo-600/50 transition"
-                  >
-                    {tenses[currentTenseIndex].alternative}
-                  </button>
+                    {(() => {
+                    const correctTense = tenses[currentTenseIndex].tense;
+                    const alternativeTense = tenses.map(t => t.tense)
+                      .filter(t => t !== correctTense)
+                      .sort(() => 0.5 - Math.random())[0];
+                    
+                    // Randomize button order
+                    const options = [
+                      { tense: correctTense, isCorrect: true },
+                      { tense: alternativeTense, isCorrect: false }
+                    ].sort(() => 0.5 - Math.random());
+                    
+                    return options.map((option, index) => (
+                      <button
+                      key={index}
+                      onClick={() => handleTenseAnswer(option.tense)}
+                      className="px-4 py-3 text-sm font-medium rounded-xl border border-white/10 bg-white/5 hover:bg-indigo-600/30 hover:border-indigo-600/50 transition"
+                      >
+                      {option.tense}
+                      </button>
+                    ));
+                    })()}
                 </div>
               ) : (
                 <div>
                   <div className="mb-4">
-                    <div className={`p-3 rounded-xl text-sm ${
-                      selectedTense === tenses[currentTenseIndex].tense
-                        ? 'bg-green-500/20 text-green-400 border border-green-500/30' 
+                    <div className={`p-3 rounded-xl text-sm ${selectedTense === tenses[currentTenseIndex].tense
+                        ? 'bg-green-500/20 text-green-400 border border-green-500/30'
                         : 'bg-red-500/20 text-red-400 border border-red-500/30'
-                    }`}>
+                      }`}>
                       {selectedTense === tenses[currentTenseIndex].tense ? (
                         <div className="flex items-start">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5">
@@ -213,7 +223,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                       )}
                     </div>
                   </div>
-                  
+
                   <div className="bg-indigo-600/20 border border-indigo-600/30 p-4 rounded-xl text-sm text-indigo-300">
                     <p className="font-medium mb-2">Explanation:</p>
                     <p>{tenses[currentTenseIndex].explanation}</p>
@@ -223,7 +233,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
             </div>
             <div className="mt-6 flex justify-between">
               {showTenseExplanation && (
-                <button 
+                <button
                   onClick={goToNextTense}
                   className="w-full py-4 bg-indigo-600 text-white rounded-xl font-medium flex items-center justify-center"
                 >
