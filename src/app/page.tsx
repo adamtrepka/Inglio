@@ -21,7 +21,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [currentSection, setCurrentSection] = useState<'article-index' | 'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts'>('article-index');
   const [selectedArticleIndex, setSelectedArticleIndex] = useState<number>(0);
-  const [userName, setUserName] = useState<string>('Adam'); // Example username
+  const [userName, setUserName] = useState<string>('User'); // Example username
 
   useEffect(() => {
     setIsLoading(true);
