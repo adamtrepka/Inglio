@@ -4,7 +4,7 @@ import React from 'react';
 import exerciseData from '../../exercise.json';
 
 interface ArticleIndexProps {
-  navigateToSection: (section: string) => void;
+  navigateToSection: (section: 'article-index' | 'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts') => void;
   selectArticle: (index: number) => void;
 }
 

@@ -1,9 +1,10 @@
 'use client';
 
 import React from 'react';
+import { SectionName } from '../../types/flashcards';
 
 interface FlashcardsIntroProps {
-  navigateToSection: (section: string) => void;
+  navigateToSection: (section: SectionName) => void;
 }
 
 export default function FlashcardsIntro({ navigateToSection }: FlashcardsIntroProps) {

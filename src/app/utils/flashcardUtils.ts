@@ -3,6 +3,16 @@ import exerciseData from '../exercise.json';
 import { FlashcardData, Word, PhrasalVerb } from '../types/flashcards';
 
 /**
+ * Escapes apostrophes in a string with the HTML entity &#39;
+ * Options include: &apos;, &lsquo;, &#39;, &rsquo;
+ * Using &#39; as default as it's the most widely supported
+ */
+export const escapeApostrophes = (text: string): string => {
+  if (!text) return '';
+  return text.replace(/'/g, '&#39;');
+};
+
+/**
  * Loads word data from the exercise.json file for a specific article
  */
 export const loadWordFlashcards = (articleIndex: number = 0): FlashcardData[] => {

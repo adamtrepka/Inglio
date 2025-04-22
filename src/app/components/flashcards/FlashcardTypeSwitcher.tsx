@@ -1,7 +1,5 @@
 'use client';
 
-import { useState } from 'react';
-
 interface FlashcardTypeSwitcherProps {
   onTypeChange: (type: 'words' | 'phrasal_verbs' | 'all') => void;
   currentType: 'words' | 'phrasal_verbs' | 'all';

@@ -1,10 +1,18 @@
 'use client';
 
 import React, { useState } from 'react';
+import { SectionName } from '../../types/flashcards';
+
+export interface Fact {
+  statement: string;
+  answer: 'True' | 'False' | 'Not Given';
+  evidence: string;
+  explanation: string;
+}
 
 interface FactsExerciseProps {
-  facts: any[];
-  navigateToSection: (section: string) => void;
+  facts: Fact[];
+  navigateToSection: (section: SectionName) => void;
 }
 
 export default function FactsExercise({ facts, navigateToSection }: FactsExerciseProps) {
@@ -87,7 +95,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
                   </div>
                   <div>
                     <h3 className="text-xl font-bold">Exercise Completed!</h3>
-                    <p className="text-gray-400 text-sm">You've completed all questions</p>
+                    <p className="text-gray-400 text-sm">You&apos;ve completed all questions</p>
                   </div>
                 </div>
 
@@ -110,7 +118,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
                   <div className="bg-white/5 rounded-lg p-4">
                     <p className="text-gray-300">
                       {userScore === facts.length ? 
-                        "Perfect score! You've mastered fact checking for this article." : 
+                        "Perfect score! You&apos;ve mastered fact checking for this article." : 
                         userScore >= Math.floor(facts.length * 0.7) ?
                         "Great job! You have a good understanding of the article content." :
                         "Keep practicing! Reading carefully and analyzing text is a skill that improves with practice."}
@@ -157,7 +165,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
                   </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                  <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
+                  <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
                 </svg>
               </button>
             </div>
@@ -218,7 +226,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
                           </svg>
                           <div>
                             <p className="font-semibold mb-1">Correct!</p>
-                            <p className="text-green-300/80">You've correctly evaluated this statement.</p>
+                            <p className="text-green-300/80">You&apos;ve correctly evaluated this statement.</p>
                           </div>
                         </div>
                       ) : (
@@ -237,7 +245,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
                   
                   <div className="bg-white/5 border border-white/10 p-4 rounded-xl text-sm text-gray-300 mb-4">
                     <p className="font-medium mb-2 text-white">Evidence from the article:</p>
-                    <p className="italic">"{facts[currentFactIndex].evidence}"</p>
+                    <p className="italic">&quot;{facts[currentFactIndex].evidence}&quot;</p>
                   </div>
                   
                   <div className="bg-green-600/20 border border-green-600/30 p-4 rounded-xl text-sm text-green-300">

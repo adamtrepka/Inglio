@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { FlashcardData, Word, PhrasalVerb } from '@/app/types/flashcards';
+import { escapeApostrophes } from '@/app/utils/flashcardUtils';
 
 interface FlashcardProps {
   data: FlashcardData;
@@ -25,8 +26,8 @@ export default function Flashcard({ data }: FlashcardProps) {
     
   // Content for the back of the card
   const backContent = isWord
-    ? (item as Word).explenation
-    : (item as PhrasalVerb).explanation;
+    ? escapeApostrophes((item as Word).explenation)
+    : escapeApostrophes((item as PhrasalVerb).explanation);
     
   // Additional info (word type for words)
   const additionalInfo = isWord ? (item as Word).type : null;

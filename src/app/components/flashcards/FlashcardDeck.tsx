@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { FlashcardData } from '@/app/types/flashcards';
 import Flashcard from './Flashcard';
 import { shuffleArray } from '@/app/utils/flashcardUtils';
@@ -24,7 +24,7 @@ export default function FlashcardDeck({
   const [flashcards] = useState(initialCards);
   const [direction, setDirection] = useState<'left' | 'right' | null>(null);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [activeCard, setActiveCard] = useState(currentIndex);
+  // Removed unused activeCard state
 
   // Define the gap between cards
   const cardGap = 20; // in pixels
@@ -63,11 +63,6 @@ export default function FlashcardDeck({
       setDirection(null);
     }, 300);
   };
-
-  // Update active card when current index changes
-  useEffect(() => {
-    setActiveCard(currentIndex);
-  }, [currentIndex]);
 
   // Complete when finished
   const handleComplete = () => {

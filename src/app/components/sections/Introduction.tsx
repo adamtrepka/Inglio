@@ -1,15 +1,17 @@
 'use client';
 
 import React from 'react';
+import { SectionName } from '../../types/flashcards';
 
 interface IntroductionProps {
+  url: string;
   website: string;
-  date: string;
+  date?: string;
   title: string;
-  navigateToSection: (section: string) => void;
+  navigateToSection: (section: SectionName) => void;
 }
 
-export default function Introduction({ website, date, title, navigateToSection }: IntroductionProps) {
+export default function Introduction({ url, website, date = '', title, navigateToSection }: IntroductionProps) {
   return (
     <div className="grid grid-cols-1 gap-6 w-80">
       {/* Article Source Card */}
@@ -123,7 +125,7 @@ export default function Introduction({ website, date, title, navigateToSection }
       {/* Source Link */}
       <div className="mt-4 flex items-center justify-between">
         <a 
-          href="https://notesfrompoland.com/2025/04/16/polish-firm-signs-biggest-ever-contract-with-european-space-agency-to-launch-satellite-constellation/" 
+          href={url}
           target="_blank" 
           rel="noopener noreferrer"
           className="text-gray-400 text-sm hover:text-gray-300 flex items-center gap-1"

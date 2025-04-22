@@ -28,3 +28,6 @@ export interface FlashcardState {
   currentIndex: number;
   items: FlashcardData[];
 }
+
+// Shared type for section navigation
+export type SectionName = 'article-index' | 'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts';

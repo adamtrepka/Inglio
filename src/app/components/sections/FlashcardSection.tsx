@@ -2,12 +2,12 @@
 
 import React from 'react';
 import FlashcardDeck from '../flashcards/FlashcardDeck';
-import { FlashcardData } from '@/app/types/flashcards';
+import { FlashcardData, SectionName } from '@/app/types/flashcards';
 
 interface FlashcardSectionProps {
   flashcards: FlashcardData[];
   isLoading: boolean;
-  navigateToSection: (section: string) => void;
+  navigateToSection: (section: SectionName) => void;
 }
 
 export default function FlashcardSection({ 

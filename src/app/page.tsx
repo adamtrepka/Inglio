@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { loadAllFlashcards } from './utils/flashcardUtils';
-import { FlashcardData } from './types/flashcards';
+import { FlashcardData, SectionName } from './types/flashcards';
 import exerciseData from './exercise.json';
 
 // Import section components
@@ -16,12 +16,16 @@ import TensesExercise from './components/sections/TensesExercise';
 import FactsIntro from './components/sections/FactsIntro';
 import FactsExercise from './components/sections/FactsExercise';
 
+// Define the Fact type to match the exact requirement of the FactsExercise component
+// We're intentionally importing it from the component to avoid type mismatches
+import { Fact as ComponentFact } from './components/sections/FactsExercise';
+
 export default function Home() {
   const [flashcards, setFlashcards] = useState<FlashcardData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [currentSection, setCurrentSection] = useState<'article-index' | 'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts'>('article-index');
+  const [currentSection, setCurrentSection] = useState<SectionName>('article-index');
   const [selectedArticleIndex, setSelectedArticleIndex] = useState<number>(0);
-  const [userName, setUserName] = useState<string>('User'); // Example username
+  const [userName] = useState<string>('User'); // Example username
 
   useEffect(() => {
     setIsLoading(true);
@@ -31,7 +35,7 @@ export default function Home() {
     setIsLoading(false);
   }, [selectedArticleIndex]);
 
-  const navigateToSection = (section: 'article-index' | 'intro' | 'flashcards-intro' | 'flashcards' | 'post-flashcards' | 'tenses-intro' | 'tenses' | 'facts-intro' | 'facts') => {
+  const navigateToSection = (section: SectionName) => {
     setCurrentSection(section);
   };
 
@@ -43,6 +47,14 @@ export default function Home() {
   const selectedArticle = exerciseData.exercises[selectedArticleIndex];
   // Source information from selected article
   const { url, title, website, date } = selectedArticle ? selectedArticle.source : { url: '', title: '', website: '', date: '' };
+  
+  // Process facts data to ensure it matches the expected Fact type
+  const processedFacts: ComponentFact[] = selectedArticle ? selectedArticle.facts.map((fact) => ({
+    statement: fact.statement,
+    answer: fact.answer as 'True' | 'False' | 'Not Given',
+    evidence: fact.evidence || '',  // Convert null to empty string to satisfy the type
+    explanation: fact.explanation
+  })) : [];
 
   const renderContent = () => {
     switch (currentSection) {
@@ -53,6 +65,7 @@ export default function Home() {
         />;
       case 'intro':
         return <Introduction 
+          url={url}
           website={website} 
           date={date} 
           title={title} 
@@ -82,7 +95,7 @@ export default function Home() {
         return <FactsIntro navigateToSection={navigateToSection} />;
       case 'facts':
         return <FactsExercise 
-          facts={selectedArticle.facts} 
+          facts={processedFacts} 
           navigateToSection={navigateToSection} 
         />;
       default:

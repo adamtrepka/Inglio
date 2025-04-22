@@ -1,10 +1,11 @@
 'use client';
 
 import React from 'react';
+import { SectionName } from '../../types/flashcards';
 
 interface PostFlashcardsOptionsProps {
   url: string;
-  navigateToSection: (section: string) => void;
+  navigateToSection: (section: SectionName) => void;
 }
 
 export default function PostFlashcardsOptions({ url, navigateToSection }: PostFlashcardsOptionsProps) {
@@ -33,7 +34,7 @@ export default function PostFlashcardsOptions({ url, navigateToSection }: PostFl
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-1">Great Job!</h3>
-              <p className="text-gray-400 text-sm">You've completed all flashcards</p>
+              <p className="text-gray-400 text-sm">You&apos;ve completed all flashcards</p>
             </div>
           </div>
           

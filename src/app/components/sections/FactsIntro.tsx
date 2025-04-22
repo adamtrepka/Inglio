@@ -1,9 +1,10 @@
 'use client';
 
 import React from 'react';
+import { SectionName } from '../../types/flashcards';
 
 interface FactsIntroProps {
-  navigateToSection: (section: string) => void;
+  navigateToSection: (section: SectionName) => void;
 }
 
 export default function FactsIntro({ navigateToSection }: FactsIntroProps) {

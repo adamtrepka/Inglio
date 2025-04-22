@@ -1,11 +1,17 @@
 'use client';
 
-import { randomInt } from 'crypto';
 import React, { useState } from 'react';
+import { SectionName } from '../../types/flashcards';
+
+interface Tense {
+  sentence: string;
+  tense: string;
+  explanation: string;
+}
 
 interface TensesExerciseProps {
-  tenses: any[];
-  navigateToSection: (section: string) => void;
+  tenses: Tense[];
+  navigateToSection: (section: SectionName) => void;
 }
 
 export default function TensesExercise({ tenses, navigateToSection }: TensesExerciseProps) {
@@ -88,7 +94,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                   </div>
                   <div>
                     <h3 className="text-xl font-bold">Exercise Completed!</h3>
-                    <p className="text-gray-400 text-sm">You've completed all questions</p>
+                    <p className="text-gray-400 text-sm">You&apos;ve completed all questions</p>
                   </div>
                 </div>
 
@@ -111,7 +117,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                   <div className="bg-white/5 rounded-lg p-4">
                     <p className="text-gray-300">
                       {tensesUserScore === tenses.length ?
-                        "Perfect score! You've mastered the tenses used in this article." :
+                        "Perfect score! You&apos;ve mastered the tenses used in this article." :
                         tensesUserScore >= Math.floor(tenses.length * 0.7) ?
                           "Great job! You have a good understanding of the tenses used in the article." :
                           "Keep practicing! Understanding tenses is a skill that improves with practice."}
@@ -158,7 +164,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                   </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                  <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
+                  <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
                 </svg>
               </button>
             </div>
@@ -203,11 +209,11 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                       {selectedTense === tenses[currentTenseIndex].tense ? (
                         <div className="flex items-start">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5">
-                            <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+                            <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clipRule="evenodd" />
                           </svg>
                           <div>
                             <p className="font-semibold mb-1">Correct!</p>
-                            <p className="text-green-300/80">Well done. You've identified the correct tense.</p>
+                            <p className="text-green-300/80">Well done. You&apos;ve identified the correct tense.</p>
                           </div>
                         </div>
                       ) : (
@@ -248,7 +254,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
                     <>
                       See Results
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 ml-2">
-                        <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l3.75-5.25z" clipRule="evenodd" />
                       </svg>
                     </>
                   )}
