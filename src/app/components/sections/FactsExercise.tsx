@@ -49,7 +49,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
   const progressPercentage = Math.floor(((currentFactIndex + 1) / facts.length) * 100);
 
   return (
-    <div className="animate-slide-up">
+    <div className="animate-slide-up w-80">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold">Fact Checking</h1>
         <div className="h-8 w-8 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center text-white text-xs font-medium">
@@ -251,7 +251,7 @@ export default function FactsExercise({ facts, navigateToSection }: FactsExercis
               {showExplanation && (
                 <button 
                   onClick={goToNextFact}
-                  className="py-3 px-5 bg-green-600 text-white rounded-xl font-medium flex items-center"
+                  className="w-full py-4 bg-green-600 text-white rounded-xl font-medium flex items-center justify-center"
                 >
                   {currentFactIndex < facts.length - 1 ? (
                     <>

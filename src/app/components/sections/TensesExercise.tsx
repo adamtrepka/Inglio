@@ -49,7 +49,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
   const progressPercentage = Math.floor(((currentTenseIndex + 1) / tenses.length) * 100);
 
   return (
-    <div className="animate-slide-up">
+    <div className="animate-slide-up w-80">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold">Grammar Exercise</h1>
         <div className="h-8 w-8 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center text-white text-xs font-medium">
@@ -225,7 +225,7 @@ export default function TensesExercise({ tenses, navigateToSection }: TensesExer
               {showTenseExplanation && (
                 <button 
                   onClick={goToNextTense}
-                  className="py-3 px-5 bg-indigo-600 text-white rounded-xl font-medium flex items-center"
+                  className="w-full py-4 bg-indigo-600 text-white rounded-xl font-medium flex items-center justify-center"
                 >
                   {currentTenseIndex < tenses.length - 1 ? (
                     <>

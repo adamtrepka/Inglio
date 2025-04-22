@@ -9,7 +9,7 @@ interface PostFlashcardsOptionsProps {
 
 export default function PostFlashcardsOptions({ url, navigateToSection }: PostFlashcardsOptionsProps) {
   return (
-    <div className="animate-slide-up">
+    <div className="animate-slide-up w-80">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold">Flashcards Complete</h1>
         <div className="flex items-center">

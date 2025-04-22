@@ -8,7 +8,7 @@ interface FactsIntroProps {
 
 export default function FactsIntro({ navigateToSection }: FactsIntroProps) {
   return (
-    <div className="animate-slide-up">
+    <div className="animate-slide-up w-80">
       <div className="flex items-center mb-6">
         <div className="flex-1">
           <span className="text-sm text-gray-400">Reading Module</span>
