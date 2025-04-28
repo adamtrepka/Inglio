@@ -1345,6 +1345,614 @@
                     "explanation": "While the quote highlights technology's role, it does not explicitly state it's about staying at the forefront, so the emphasis is on 'putting British farming at the cutting edge' which could be interpreted as support, but it's not explicitly about 'staying at the forefront' in the text provided."
                 }
             ]
+        },
+        {
+            "source": {
+                "url": "https://e24.no/naeringsliv/i/EyABz5/temu-kunder-bekymret-shopper-likevel",
+                "title": "Temu-kunder bekymret – shopper likevel – E24",
+                "website": "28 April 2025"
+            },
+            "words": [
+                {
+                    "word": "bekymring",
+                    "source": "original",
+                    "explenation": "ofte brukt i sammenheng med daglig usikkerhet og bekymringer.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "Kvalitet",
+                    "source": "original",
+                    "explenation": " viktig for å bygge et godt ordforråd innenfor produkter og vurderinger.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "shopper",
+                    "source": "original",
+                    "explenation": " brukes ofte i daglig tale om å kjøpe varer, og er praktisk i kommunikasjon.",
+                    "type": "verb"
+                },
+                {
+                    "word": "problem",
+                    "source": "original",
+                    "explenation": " vanlig brukt når man diskuterer utfordringer og vanskeligheter.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "pris",
+                    "source": "original",
+                    "explenation": " grunnleggende ord knyttet til økonomi og kjøp/salg.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "arbeidsforhold",
+                    "source": "original",
+                    "explenation": " viktig for å forstå samfunnsmessige og arbeidsrelaterte diskusjoner.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "helse",
+                    "source": "original",
+                    "explenation": " sentralt i diskusjoner om produktkvalitet og forbrukerbeskyttelse.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "bærekraft",
+                    "source": "original",
+                    "explenation": " viktig i moderne samfunnsdebatt og for å utvikle ordforråd om miljø og samfunnsansvar.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "kjemikalier",
+                    "source": "original",
+                    "explenation": " ofte brukt i relasjon til produkter og helsesikkerhet.",
+                    "type": "substantiv"
+                },
+                {
+                    "word": "bruk-og-kast",
+                    "source": "original",
+                    "explenation": " sentralt i diskusjoner om miljø og livsstil, og gir en viktig miljørelatert vokabularbygging.",
+                    "type": "adjektivisk frase"
+                }
+            ],
+            "phrasal_verbs": [
+                {
+                    "phrasal_verb": "har vært",
+                    "source": "Norske Temu-kunder har hatt en form for bekymring",
+                    "explanation": "Et multi-ords verb hvor 'har' fungerer som hjelpeverb og 'vært' som hovedverb, brukt for å uttrykke en tilstand i fortid."
+                },
+                {
+                    "phrasal_verb": "drev inn",
+                    "source": "Det var litt nysgjerrighet som gjorde at jeg gikk inn",
+                    "explanation": "Et uttrykk der 'gjorde' er verb og 'inn' er partikkel, brukt i betydningen av å gå inn i en butikk eller et sted."
+                },
+                {
+                    "phrasal_verb": "har bestilt",
+                    "source": "Hun har bestilt knotter, håndtak, sjablonger med mer",
+                    "explanation": "Et sammensatt verb hvor 'har' er hjelpeverb og 'bestilt' er hovedverb, brukt i perfektum."
+                },
+                {
+                    "phrasal_verb": "tør å ta",
+                    "source": "ull å ta» på grunn av lav pris",
+                    "explanation": "Et uttrykk der 'tør' er verb og 'å ta' er en infinitiv, brukt i betydningen av å våge eller ha mot til å gjøre noe."
+                },
+                {
+                    "phrasal_verb": "har vært",
+                    "source": "Henriksen sier hun har vært både fornøyd, delvis fornøyd og svært misfornøyd.",
+                    "explanation": "Som over, uttrykker en tilstand eller erfaring i fullført form."
+                },
+                {
+                    "phrasal_verb": "har kjent",
+                    "source": "Nå er det en liten stund siden siste bestilling. Jeg har jo kjent veldig på bærekraftsperspektivet",
+                    "explanation": "Et sammensatt verb hvor 'har' er hjelpeverb og 'kjent' er hovedverb, som uttrykker erfaring eller opplevelse."
+                },
+                {
+                    "phrasal_verb": "kan komme",
+                    "source": "Når tidevannet snur, tror han at aktører som Temu og Shein vil oppleve mer motstand.",
+                    "explanation": "Et modalverb 'kan' kombinert med infinitiv 'komme', brukt for å uttrykke mulighet i fremtiden."
+                },
+                {
+                    "phrasal_verb": "vil oppleve",
+                    "source": "tror han at aktører som Temu og Shein vil oppleve mer motstand",
+                    "explanation": "Et modalverb 'vil' med infinitiv 'oppleve', brukt for å uttrykke framtidig handling eller forventning."
+                },
+                {
+                    "phrasal_verb": "har handlet",
+                    "source": "uttalene av én av tre norske respondenter at de har handlet på plattformen",
+                    "explanation": "Et perfektum av 'handle', hvor 'har' er hjelpeverb og 'handlet' er hovedverbet."
+                }
+            ],
+            "tenses": [
+                {
+                    "verb_phrase": "har vært",
+                    "tense": "Presens perfektum",
+                    "sentence": "Jeg har dessverre vært mer misfornøyd enn fornøyd, sier Temu-kunde Therese Henriksen (40).",
+                    "explanation": "Expresses an action completed in the recent past with relevance to the present using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har hatt",
+                    "tense": "Presens perfektum",
+                    "sentence": "Så å si alle norske Temu-kunder har hatt en form for bekymring i forbindelse med shoppingen.",
+                    "explanation": "Indicates an action that has been ongoing or relevant up to now using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "kommer frem",
+                    "tense": "Presens",
+                    "sentence": "Det kommer frem i Prisjakts siste utgave av «ForbrukerkompassetinfoForbrukerkompassetEn kvartalsvis spørreundersøkelse om norsk forbrukeratferd. »",
+                    "explanation": "Describes an ongoing or current event, using present tense."
+                },
+                {
+                    "verb_phrase": "har svart",
+                    "tense": "Presens perfektum",
+                    "sentence": "Kun seks prosent har svart at de ikke har noen bekymringer.",
+                    "explanation": "Expresses a completed action relevant to now, using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": " kjenner nok",
+                    "tense": "Presens",
+                    "sentence": "– Jeg kjenner nok på alle, sier Therese Henriksen til E24.",
+                    "explanation": "Expresses a present state or feeling, with 'kjenn' in present tense."
+                },
+                {
+                    "verb_phrase": "handlet",
+                    "tense": "Preteritum",
+                    "sentence": "Hun handlet på Temu for første gang for halvannet år siden.",
+                    "explanation": "Describes a completed past action, using past tense."
+                },
+                {
+                    "verb_phrase": "gjorde",
+                    "tense": "Preteritum",
+                    "sentence": "Det var litt nysgjerrighet som gjorde at jeg gikk inn, i tillegg til at jeg kjøper deler til prosjekter jeg jobber med.",
+                    "explanation": "Indicates a past event, using past tense."
+                },
+                {
+                    "verb_phrase": "har bestilt",
+                    "tense": "Presens perfektum",
+                    "sentence": "Det dreier seg om restaurering og oppussing av møbler. Derfor har hun bestilt knotter, håndtak, sjablonger med mer.",
+                    "explanation": "Expresses an action completed recently or relevant now, using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har vært",
+                    "tense": "Presens perfektum",
+                    "sentence": "Henriksen sier hun har vært både fornøyd, delvis fornøyd og svært misfornøyd.",
+                    "explanation": "Indicates an ongoing or relevant experience up to now, using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har kjent",
+                    "tense": "Presens perfektum",
+                    "sentence": "– Jeg har dessverre vært mer misfornøyd enn fornøyd.",
+                    "explanation": "Expresses an experience relevant to the present, using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har kjent",
+                    "tense": "Presens perfektum",
+                    "sentence": "– Det var litt nysgjerrighet som gjorde at jeg gikk inn, i tillegg til at jeg kjøper deler til prosjekter jeg jobber med.",
+                    "explanation": "Describes a past state, but in this context, the perfect form indicates experience up to now; however, in this sentence, it isn't explicitly present, so it's not counted."
+                },
+                {
+                    "verb_phrase": "kommer",
+                    "tense": "Presens",
+                    "sentence": "Det kommer frem i Prisjakts siste utgave av «ForbrukerkompassetinfoForbrukerkompassetEn kvartalsvis spørreundersøkelse om norsk forbrukeratferd. »",
+                    "explanation": "Indicates an ongoing or current event, present tense."
+                },
+                {
+                    "verb_phrase": "har svart",
+                    "tense": "Presens perfektum",
+                    "sentence": "Kun seks prosent har svart at de ikke har noen bekymringer.",
+                    "explanation": "Expresses completed actions relevant to now, with 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har vært",
+                    "tense": "Presens perfektum",
+                    "sentence": "Henriksen sier hun har vært både fornøyd, delvis fornøyd og svært misfornøyd.",
+                    "explanation": "Indicates an ongoing or currently relevant state, using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har bestilt",
+                    "tense": "Presens perfektum",
+                    "sentence": "Hun har bestilt knotter, håndtak, sjablonger med mer.",
+                    "explanation": "Expresses a completed action with relevance to now, using 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "har gjort",
+                    "tense": "Preteritum",
+                    "sentence": "Det var litt nysgjerrighet som gjorde at jeg gikk inn, i tillegg til at jeg kjøper deler til prosjekter jeg jobber med.",
+                    "explanation": "Describes a past event in preterite; in this context, 'gjorde' is Preteritum, but 'har gjort' is not explicitly present here, so it isn't counted."
+                },
+                {
+                    "verb_phrase": "har vært",
+                    "tense": "Presens perfektum",
+                    "sentence": "Henriksen sier hun har vært både fornøyd, delvis fornøyd og svært misfornøyd.",
+                    "explanation": "Expresses an experience up to now, with 'har' + past participle."
+                },
+                {
+                    "verb_phrase": "kommer",
+                    "tense": "Presens",
+                    "sentence": "Det kommer frem i Prisjakts siste utgave av «ForbrukerkompassetinfoForbrukerkompassetEn kvartalsvis spørreundersøkelse om norsk forbrukeratferd. »",
+                    "explanation": "Describes an ongoing event happening now, in present tense."
+                },
+                {
+                    "verb_phrase": "har svart",
+                    "tense": "Presens perfektum",
+                    "sentence": "Det er mest i Norden. Under tilfredshet svarer 52 prosent at de er fornøyd med handleopplevelsen, mens 40 prosent er misfornøyd.",
+                    "explanation": "Indicates completed actions or states relevant now, in present perfect form."
+                },
+                {
+                    "verb_phrase": "er",
+                    "tense": "Presens",
+                    "sentence": "Det er mest i Norden.",
+                    "explanation": "Expresses a current state or fact, in present tense."
+                }
+            ],
+            "facts": [
+                {
+                    "statement": "Temu-kunder har generelt uttrykt uro for flere bekymringer i forbindelse med shoppingen på plattformen.",
+                    "answer": "True",
+                    "evidence": "Så å si alle norske Temu-kunder har hatt en form for bekymring i forbindelse med shoppingen.",
+                    "explanation": "Siden teksten sier at nesten alle norske kunder har hatt bekymringer, støtter dette påstanden fullt ut."
+                },
+                {
+                    "statement": "Henriksen har alltid vært fornøyd med produktene hun har kjøpt på Temu.",
+                    "answer": "False",
+                    "evidence": "Henriksen sier hun har vært både fornøyd, delvis fornøyd og svært misfornøyd, og at hun har vært mer misfornøyd enn fornøyd.",
+                    "explanation": "Teksten viser at hun ikke alltid har vært fornøyd, og at hun har opplevd mer misnøye enn tilfredshet, så påstanden er direkte motstridende."
+                },
+                {
+                    "statement": "Det er en økende bekymring blant norske Temu-kunder for produktenes kvalitet og arbeidsforhold.",
+                    "answer": "Not Given",
+                    "evidence": "Teksten nevner bekymringer generelt, men sier ikke eksplisitt at bekymringen har økt over tid blant norske kunder.",
+                    "explanation": "Informasjonen gir ikke nok data om utviklingen av bekymringer over tid, bare at bekymringer eksisterer."
+                },
+                {
+                    "statement": "De fleste norske Temu-kunder er fornøyde med produktkvaliteten ifølge Kantar-undersøkelsen.",
+                    "answer": "False",
+                    "evidence": "56 prosent mener at Temu _ikke_ gir god kvalitet for pengene, noe som indikerer at majoriteten er misfornøyde.",
+                    "explanation": "Det at over halvparten mener kvaliteten er dårlig, motsier påstanden at de fleste er fornøyde."
+                },
+                {
+                    "statement": "Reina mener at lav pris kan føre til at prioriteter om helseskadelige kjemikalier og arbeidsforhold blir oversett.",
+                    "answer": "True",
+                    "evidence": "Reina sier at prisene er så lave at folk er villige til å kaste både sine egne bekymringer og kjøpene sine, og trekker fram helseskadelige kjemikalier og arbeidsforhold som bekymringer de kan oversett.",
+                    "explanation": "Teksten støtter dette tydelig gjennom hans uttalelser om prispress og bekymringer."
+                }
+            ]
+        },
+        {
+            "source": {
+                "url": "https://e24.no/boers-og-finans/i/bmrrdg/kaos-for-containerfrakt-usikkerheten-regjerer",
+                "title": "Kaos for containerfrakt: – Usikkerheten regjerer  – E24",
+                "website": "28 April 2025"
+            },
+            "words": [
+                {
+                    "word": "frakt",
+                    "source": "original text",
+                    "explenation": "practical term for shipping or transportation",
+                    "type": "noun"
+                },
+                {
+                    "word": "toll",
+                    "source": "original text",
+                    "explenation": "tax, especially on imported goods",
+                    "type": "noun"
+                },
+                {
+                    "word": "handel",
+                    "source": "original text",
+                    "explenation": "trade or commerce",
+                    "type": "noun"
+                },
+                {
+                    "word": "containere",
+                    "source": "original text",
+                    "explenation": "containers, essential in shipping",
+                    "type": "noun"
+                },
+                {
+                    "word": "markedet",
+                    "source": "original text",
+                    "explenation": "market, a key concept in commerce",
+                    "type": "noun"
+                },
+                {
+                    "word": "prognose",
+                    "source": "original text",
+                    "explenation": "forecast or prediction",
+                    "type": "noun"
+                },
+                {
+                    "word": "råd",
+                    "source": "original text",
+                    "explenation": "advice or council, useful in decision making",
+                    "type": "noun"
+                },
+                {
+                    "word": "gjensidig",
+                    "source": "original text",
+                    "explenation": "mutual, reciprocal",
+                    "type": "adjective"
+                },
+                {
+                    "word": "volumfall",
+                    "source": "original text",
+                    "explenation": "drop in volume or quantity",
+                    "type": "noun"
+                },
+                {
+                    "word": "konsekvenser",
+                    "source": "original text",
+                    "explenation": "consequences or effects",
+                    "type": "noun"
+                }
+            ],
+            "phrasal_verbs": [
+                {
+                    "phrasal_verb": "regjerer",
+                    "source": "Usikkerhet er det ene som virkelig regjerer i containermarkedene akkurat nå",
+                    "explanation": "regjerer kan tolkes som et verb som beskriver å styre eller ha kontroll over noe, ofte brukt i uttrykk som "
+                },
+                {
+                    "phrasal_verb": "ført til",
+                    "source": "Dette har ført til store endringer i globale fraktmønstre",
+                    "explanation": "ført til er en sammensetning av ført (fra føre) og til, brukt for å uttrykke at noe forårsaker en effekt eller resultat"
+                },
+                {
+                    "phrasal_verb": "setting på pause",
+                    "source": "siden 9. april, da de såkalte gjensidige tollsatsene ble satt på pause",
+                    "explanation": "satt på pause er en vanlig formulering som beskriver at noe midlertidig stoppes eller avbrytes"
+                },
+                {
+                    "phrasal_verb": "gå høyere",
+                    "source": "har gått høyere enn ratene fra Kina",
+                    "explanation": "gå høyere er et uttrykk brukt for å indikere at noe øker eller stiger"
+                },
+                {
+                    "phrasal_verb": "gå nedover",
+                    "source": "som har gått nedover den siste uken",
+                    "explanation": "gå nedover beskriver en nedgang eller reduksjon i nivå eller verdi"
+                },
+                {
+                    "phrasal_verb": "organiserer forsender",
+                    "source": "som organiserer forsender av varer og last fra en kilde til en annen",
+                    "explanation": "organiserer"
+                },
+                {
+                    "phrasal_verb": "sette opp igjen",
+                    "source": "de vil kanskje ikke bli så godt fylt opp igjen",
+                    "explanation": "sette opp igjen er en sammensetning av sette og opp igjen, brukt for å beskrive at noe skal fylles eller etableres på nytt"
+                }
+            ],
+            "tenses": [
+                {
+                    "verb_phrase": "regjerer",
+                    "tense": "Presens",
+                    "sentence": "# Kaos for containerfrakt: – Usikkerheten regjerer",
+                    "explanation": "Present tense used for ongoing or current state, indicating that 'regjerer' describes what insecurity is doing at the moment."
+                },
+                {
+                    "verb_phrase": "ser",
+                    "tense": " Presens",
+                    "sentence": "Eksperter ser tegn til betydelig mindre frakt av varer mellom USA og Kina.",
+                    "explanation": "Present tense used to describe a current observation or situation made by experts."
+                },
+                {
+                    "verb_phrase": "har innført",
+                    "tense": "Perfektum",
+                    "sentence": "USA har innført skyhøye tollmurer mot Kina på 145 prosent.",
+                    "explanation": "Perfect tense indicating an action completed in the recent past that is relevant to the present."
+                },
+                {
+                    "verb_phrase": "har ført",
+                    "tense": "Perfektum",
+                    "sentence": "Dette har ført til store endringer i globale fraktmønstre, med økt shipping fra Sørøst-Asia og redusert frakt fra Kina.",
+                    "explanation": "Perfect tense describing a past action with present relevance as a result."
+                },
+                {
+                    "verb_phrase": "er",
+                    "tense": "Presens",
+                    "sentence": "Usikkerhet er det ene som virkelig regjerer i containermarkedene akkurat nå, i hvert fall de som er koblet til USA.",
+                    "explanation": "Present tense indicating a current state or condition."
+                },
+                {
+                    "verb_phrase": "siger",
+                    "tense": "Presens",
+                    "sentence": "sier sjefanalytiker Peter Sand i shippingdataselskapet XenetainfoXenetaet norsk tech-selskap som leverer pris- og markedsdata for containerfrakt til E24.",
+                    "explanation": "Present tense used for current statements or assertions."
+                },
+                {
+                    "verb_phrase": "har satt på",
+                    "tense": "Perfektum",
+                    "sentence": "da de såkalte gjensidige tollsatsene ble satt på pause",
+                    "explanation": "Past action completed, with relevance to current consequences."
+                },
+                {
+                    "verb_phrase": "har gått",
+                    "tense": "Perfektum",
+                    "sentence": "som har gått nedover den siste uken, sier Sand på telefon til E24.",
+                    "explanation": "Past tense indicating a change over a recent period that is relevant now."
+                },
+                {
+                    "verb_phrase": "har gått",
+                    "tense": "Perfektum",
+                    "sentence": "som har gått nedover den siste uken, sier Sand på telefon til E24.",
+                    "explanation": "Past perfect tense describing a completed movement or change, related to the recent past."
+                },
+                {
+                    "verb_phrase": "har organisert",
+                    "tense": "Perfektum",
+                    "sentence": "som organiserer forsender av varer og last fra en kilde til en annen ber om flere containere fra Sørøst-Asia og færre containere fra Kina.",
+                    "explanation": "Indicating an action completed in the recent or ongoing period relevant to the current context."
+                },
+                {
+                    "verb_phrase": "endres",
+                    "tense": "Presens",
+                    "sentence": "Når det gjelder hvordan kostnadsnivåene for transportører endres, vil det påvirke prissettingen av transporttjenester over hele linjen, sier Sand.",
+                    "explanation": "Present tense used to describe a process that currently occurs or a general truth."
+                },
+                {
+                    "verb_phrase": "følger",
+                    "tense": "Presens",
+                    "sentence": "Den London-baserte analytikeren Simon Heaney i analyse- og konsulentselskapet Drewry følger containermarkedet tett.",
+                    "explanation": "Present tense indicating an ongoing action or current activity."
+                },
+                {
+                    "verb_phrase": "har senket",
+                    "tense": "Perfektum",
+                    "sentence": "De har nylig senket prognosen for etterspørselen etter containerskip til et fall på 1 prosent globalt i år.",
+                    "explanation": "Completed recent action with present implications."
+                },
+                {
+                    "verb_phrase": "komme",
+                    "tense": "Presens",
+                    "sentence": "prognosene kommer med store forbehold knyttet til flere usikkerhetsfaktorer",
+                    "explanation": "Present indicative of a current or future event."
+                },
+                {
+                    "verb_phrase": "vil bli",
+                    "tense": "Futurum",
+                    "sentence": "hvorvidt Suezkanalen vil bli gjenåpnet og hvorvidt den planlagte avgiften på Kina-bygde skip trer i kraft som forventet i oktober",
+                    "explanation": "Futurum expressing future potential events or actions."
+                },
+                {
+                    "verb_phrase": "har sett",
+                    "tense": "Perfektum",
+                    "sentence": "Jeg har sett nyhetene fra Hapag-Lloyd",
+                    "explanation": "Recently completed action relevant to the present."
+                },
+                {
+                    "verb_phrase": "vil være",
+                    "tense": "Futurum",
+                    "sentence": "Lagernivåene vil være relativt høye, men de vil åpenbart bli tømt over tid",
+                    "explanation": "Indicating future state or condition."
+                },
+                {
+                    "verb_phrase": "vil bli",
+                    "tense": "Futurum",
+                    "sentence": "men de vil åpenbart bli tømt over tid og de vil kanskje ikke bli så godt fylt opp igjen hvis tollsatsene forblir på et veldig høyt nivå",
+                    "explanation": "Future passive construction indicating a future process or condition."
+                },
+                {
+                    "verb_phrase": "advarte",
+                    "tense": "Preteritum",
+                    "sentence": "Torsten Slok, sjeføkonom i Apollo Management, advarte nylig om corona-lignende forstyrrelser med store kutt i bransjer som varehandel, logistikk og lastebiltransport, ifølge Bloomberg.",
+                    "explanation": "Past tense indicating a completed action or statement."
+                },
+                {
+                    "verb_phrase": "avviser",
+                    "tense": "Presens",
+                    "sentence": "Heaney avviser sammenligninger med forstyrrelsene under pandemien.",
+                    "explanation": "Current statement or stance."
+                },
+                {
+                    "verb_phrase": "er",
+                    "tense": "Presens",
+                    "sentence": "Dette er noe annet.",
+                    "explanation": "Present tense describing the current state or definition."
+                },
+                {
+                    "verb_phrase": "er",
+                    "tense": "Presens",
+                    "sentence": "Dette er mye mer isolert når det gjelder regionene det vil påvirke, forklarer han.",
+                    "explanation": "Present tense describing current or ongoing situation."
+                }
+            ],
+            "facts": [
+                {
+                    "statement": "Eksperter ser tegn til betydelig mindre frakt av varer mellom USA og Kina.",
+                    "answer": "True",
+                    "evidence": "Eksperter ser tegn til betydelig mindre frakt av varer mellom USA og Kina.",
+                    "explanation": "The article states that there are signs of much less freight between USA and China."
+                },
+                {
+                    "statement": "USA har innført tollmurer⟨1⟩ mot Kina på 145 prosent.",
+                    "answer": "True",
+                    "evidence": "USA har innført skyhøye tollmurer⟨1⟩ mot Kina på 145 prosent.",
+                    "explanation": "Direct statement in the text confirms high tariffs at 145%."
+                },
+                {
+                    "statement": "Det har vært økt frakt fra Kina etter tollinnføring.",
+                    "answer": "False",
+                    "evidence": "Dette har ført til store endringer i globale fraktmønstre, med økt shipping fra Sørøst-Asia og redusert frakt fra Kina.",
+                    "explanation": "The text indicates that freight from China has reduced, not increased."
+                },
+                {
+                    "statement": "Usikkerhet er det ene som virkelig regjerer i containermarkedene akkurat nå.",
+                    "answer": "True",
+                    "evidence": "– Usikkerhet er det ene som virkelig regjerer i containermarkedene akkurat nå, i hvert fall de som er koblet til USA.",
+                    "explanation": "The article explicitly states that uncertainty dominates the container markets now."
+                },
+                {
+                    "statement": "Port of Los Angeles' andre ruter er de viktigste for kinesiske varer inn i USA.",
+                    "answer": "Not Given",
+                    "evidence": "USAs største havn, «Port of Los Angeles», er den viktigste ruten for kinesiske varer inn i USA.",
+                    "explanation": "The text mentions the port as a major entry point but does not specify 'routes' besides the port itself."
+                },
+                {
+                    "statement": "Antall planlagte ankomster til Port of Los Angeles vil være en tredjedel lavere enn i fjor.",
+                    "answer": "True",
+                    "evidence": "De venter nå at antallet planlagte ankomster i neste uke vil være en tredjedel lavere enn på samme tid i fjor.",
+                    "explanation": "Direct statement in the article confirms this reduction."
+                },
+                {
+                    "statement": "Etter tollpause har interessen for å frakte varer tidligere økt, kjent som front loading.",
+                    "answer": "True",
+                    "evidence": "Det har vært stor interesse for «front loading» – å frakte varer tidligere enn normalt for å unngå at frakten blir dyrere på et senere tidspunkt.",
+                    "explanation": "The article explains that interest in front loading has increased following the toll pause."
+                },
+                {
+                    "statement": "Fraktratene fra Sørøst-Asia og Vietnam har gått lavere enn ratene fra Kina.",
+                    "answer": "False",
+                    "evidence": "Sand sier at fraktratene fra Sørøst-Asia og Vietnam har gått høyere enn ratene fra Kina.",
+                    "explanation": "The text states that rates from Southeast Asia and Vietnam are higher than from China."
+                },
+                {
+                    "statement": "Kostnadsnivåene for transportører vil påvirke prissettingen av transporttjenester globalt.",
+                    "answer": "True",
+                    "evidence": "Ettersom kostnadsnivåene for transportører endres, vil det påvirke prissettingen av transporttjenester over hele linjen.",
+                    "explanation": "The article indicates that changes in transport costs will influence global prices."
+                },
+                {
+                    "statement": "Drewry har økt sin prognose for global etterspørsel etter containerskip i år.",
+                    "answer": "False",
+                    "evidence": "De har nylig senket prognosen for etterspørselen etter containerskip til et fall på 1 prosent globalt i år. Tidligere ventet de en vekst på 2,3 prosent.",
+                    "explanation": "The prognosis has been lowered, not increased."
+                },
+                {
+                    "statement": "Heaney mener det er veldig enkelt å se oppside i containershipping på grunn av nåværende situasjon.",
+                    "answer": "False",
+                    "evidence": "Heaney sier at det er veldig vanskelig å se noen oppside fra noe av dette for containershipping.",
+                    "explanation": "Heaney states that it is difficult to see positive prospects now."
+                },
+                {
+                    "statement": "Heaney mener at tollsituasjonen er en av flere usikkerhetsfaktorer for prognosene.",
+                    "answer": "True",
+                    "evidence": "Prognosene kommer med store forbehold knyttet til flere usikkerhetsfaktorer, deriblant tollsituasjonen.",
+                    "explanation": "The text explicitly mentions toll situation as a key uncertainty."
+                },
+                {
+                    "statement": "Heaney tror at Suezkanalen vil bli gjenåpnet, som planlagt.",
+                    "answer": "Not Given",
+                    "evidence": "Det samme gjelder hvorvidt Suezkanalen vil bli gjenåpnet og hvorvidt den planlagte avgiften på Kina-bygde skip trer i kraft som forventet i oktober.",
+                    "explanation": "The text mentions uncertainty about this, not a confirmed belief."
+                },
+                {
+                    "statement": "Hapag-Lloyd rapporterte økning i bestillinger fra Kina til USA.",
+                    "answer": "False",
+                    "evidence": "De har rapportert et betydelig fall i bestillinger fra Kina til USA.",
+                    "explanation": "The article states there has been a significant fall, not an increase."
+                },
+                {
+                    "statement": "Det er risiko for tomme butikkhyller i USA på grunn av handelskonflikten.",
+                    "answer": "True",
+                    "evidence": "Heaney sier at risikoen absolutt er til stede… lager nivåene vil være relativt høye, men de vil åpenbart bli tømt over tid.",
+                    "explanation": "The article confirms the risk of empty shelves due to reduced freight."
+                },
+                {
+                    "statement": "Heaney mener at pandemien har lignende globale forstyrrelser som handelskonflikten.",
+                    "answer": "False",
+                    "evidence": "Heaney avviser sammenligninger med forstyrrelsene under pandemien, og sier dette er noe annet.",
+                    "explanation": "Heaney explicitly states that it is not similar to pandemic disruptions."
+                }
+            ]
         }
     ]
 }
